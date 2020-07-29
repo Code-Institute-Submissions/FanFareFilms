@@ -53,3 +53,28 @@ Pages
     Where we are
     What we do.
 
+
+Technologies
+  replit
+  Bootstrap for card framework, container code
+
+
+
+Attributation
+  Header and Nav from Code Institute Love Running Project.
+  Hero Image https://www.pexels.com/photo/abstract-analog-art-camera-390089/
+
+  The Big Sleep image
+  https://pixabay.com/photos/humphrey-bogart-lauren-bacall-619157/
+
+  Angel and the Badman Image
+  https://pixabay.com/photos/john-wayne-gail-russell-actor-394468/
+
+  Detour image
+  https://pixabay.com/photos/ann-savage-tom-neal-actress-actor-394472/
+
+  Prisoner of Zenda image
+  https://pixabay.com/photos/ronald-colman-madeleine-carroll-403399/
+
+  
+
