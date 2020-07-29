@@ -72,7 +72,7 @@ letter-spacing: 4px;
 
 /* ---------------------------------------------------Top Image */
 .hero-container {
-  height: 80vh;
+  height: 70vh;
 
     background: url('../Images/abstract-analog-art-camera-390089.jpg') no-repeat bottom right fixed;
     -webkit-background-size: cover;
@@ -87,40 +87,89 @@ letter-spacing: 4px;
     position: relative;
 }
 
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.jumbotron .lead {
+    color: #fafafa;
+    margin: 25px 0;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
+}
+
 /* ---------------------------------------------------Dividers */
 
 .block-divider {
-    width: 75px;
-    height: 5px;
-    border: 0;
-    background-color: #444;
-    text-align: center;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 1px;
+  width: 20%;
+  background-color: #777777;
 }
 
-
-hr {
-    
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    border: 0;
-    border-top: 1px solid rgba(0,0,0,.1);
-}
-hr {
-    box-sizing: content-box;
-    height: 0;
-    overflow: visible;
+.block-divider-white {
+  background-color: #fff;
 }
 
+/* Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--green {
+    color: white;
+    background-color: green;
+    border-color: green;
+}
+
+.btn--green:hover,
+.btn--green:active,
+.btn--green:focus,
+.btn--green:active:focus {
+    background-color: darkgreen;
+    border-color: darkgreen;
+    color: white;
+}
 
 /* ---------------------------------------------------Schedule Cards */
 
 .schedule-text {
   text-align: center;
-  padding-top: 10px;
+  padding-top: 30px;
 }
 
 .card-deck {
   padding: 10px;
+  margin-bottom: 10px;
 }
 
 .card-deck .card {
