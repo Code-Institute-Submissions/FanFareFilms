@@ -197,6 +197,11 @@ letter-spacing: 4px;
   font-size: 120%;
 }
 
+.card-img-top-book {
+  height: 10vw;
+  object-fit: cover;
+}
+
 /*
 .card-img-top {
     width: 100%;

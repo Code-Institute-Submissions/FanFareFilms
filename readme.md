@@ -76,5 +76,8 @@ Attributation
   Prisoner of Zenda image
   https://pixabay.com/photos/ronald-colman-madeleine-carroll-403399/
 
+  Assistance on name and value for form button submission on book page:
+  https://stackoverflow.com/questions/37973455/pass-additional-data-with-submit-button 
+
   
 
