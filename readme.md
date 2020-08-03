@@ -62,7 +62,10 @@ Technologies
 
 Attributation
   Header and Nav from Code Institute Love Running Project.
-  Hero Image https://www.pexels.com/photo/abstract-analog-art-camera-390089/
+  Hero Image -  Home https://www.pexels.com/photo/abstract-analog-art-camera-390089/
+
+  Hero Image - Booking
+  https://www.pexels.com/photo/multi-colored-chairs-in-row-257385/
 
   The Big Sleep image
   https://pixabay.com/photos/humphrey-bogart-lauren-bacall-619157/
@@ -78,6 +81,16 @@ Attributation
 
   Assistance on name and value for form button submission on book page:
   https://stackoverflow.com/questions/37973455/pass-additional-data-with-submit-button 
+
+  Assistance on how to jump to a specific part of another page - namely the bookings section of book.html for this project:
+  https://stackoverflow.com/questions/17687328/getting-a-link-to-go-to-a-specific-section-on-another-page
+
+
+Features to add:
+  Date validation - currently using this week/next week. Calendar dropdown with valid dates available. Would be linked to a database of upcoming.
+  Likely would go with something such as: https://bootstrap-datepicker.readthedocs.io/en/latest/
+
+  Requires additional knowledge of JS and Jquery though appears achievable. Carepoints would include ensuring past bookings are not possible and only future bookings that fall on appropriate scheduled days.
 
   
 

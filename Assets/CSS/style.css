@@ -97,6 +97,10 @@ letter-spacing: 4px;
     position: relative;
 }
 
+.hero-container-booking {
+  background: url('../Images/movie-seats.jpg') no-repeat bottom right fixed;
+}
+
 .opaque-overlay {
     position: absolute;
     top: 0;
@@ -148,6 +152,11 @@ letter-spacing: 4px;
 }
 
 /* Buttons */
+
+/*require an ID on this main one due to an inherit class for "a links" located within the notes of bootstrap */
+#mainbutton {
+  color: white;
+}
 
 .btn--cta {
     font-weight: bold;
@@ -202,6 +211,10 @@ letter-spacing: 4px;
   object-fit: cover;
 }
 
+.card-text-no-space{
+  margin-bottom: 0;
+}
+
 /*
 .card-img-top {
     width: 100%;
@@ -219,6 +232,25 @@ object-fit: cover;
 }
 
 */
+
+/* ---------------------------------------------------Schedule Icons */
+
+.imdb-rating {
+  font-size: 300%;
+  text-align: center;
+  color: #777777;
+}
+
+.imdb-rating:hover {
+  color: #666666;
+}
+
+
+/* ---------------------------------------------------Forms */
+
+.custom-select-sm {
+  margin-bottom: 5px;
+}
 
 /* ---------------------------------------------------Footer */
 
