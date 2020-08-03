@@ -67,6 +67,9 @@ Attributation
   Hero Image - Booking
   https://www.pexels.com/photo/multi-colored-chairs-in-row-257385/
 
+  Hero image - Vote
+  https://www.pexels.com/photo/person-dropping-paper-on-box-1550337/
+
   The Big Sleep image
   https://pixabay.com/photos/humphrey-bogart-lauren-bacall-619157/
 

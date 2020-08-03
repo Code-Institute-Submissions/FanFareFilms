@@ -99,6 +99,12 @@ letter-spacing: 4px;
 
 .hero-container-booking {
   background: url('../Images/movie-seats.jpg') no-repeat bottom right fixed;
+  background-size: cover;
+}
+
+.hero-container-vote {
+  background: url('../Images/vote.jpg') no-repeat bottom right fixed;
+  background-size: cover;
 }
 
 .opaque-overlay {
@@ -151,6 +157,10 @@ letter-spacing: 4px;
   background-color: #fff;
 }
 
+.block-divider-bottom-margin {
+  margin-bottom: 20px;
+}
+
 /* Buttons */
 
 /*require an ID on this main one due to an inherit class for "a links" located within the notes of bootstrap */
@@ -177,6 +187,11 @@ letter-spacing: 4px;
     background-color: darkgreen;
     border-color: darkgreen;
     color: white;
+}
+
+.suggestion-button {
+  margin-top: 10px;
+  
 }
 
 /* ---------------------------------------------------Buttons */
@@ -213,6 +228,16 @@ letter-spacing: 4px;
 
 .card-text-no-space{
   margin-bottom: 0;
+}
+
+.vote-columns {
+  padding: 15px;
+}
+
+.suggestion-box {
+  width: 70%;
+  margin: 0 auto;
+  
 }
 
 /*

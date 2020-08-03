@@ -30,7 +30,19 @@
        </ul>
      </nav>
     </header>
-    <div class="container-fluid hero-container">
+    <div class="container-fluid hero-container hero-container-vote">
+      <!-- Callout -->
+        <div class="opaque-overlay">&nbsp;</div>
+        <div class="row">
+            <div class="col-12">
+                <section class="callout jumbotron text-center">
+                    <h1 class="jumbotron-header">Cast your vote for the next selection.</h1>
+                    <hr class="block-divider block-divider-white">
+                    <p class="lead">Then make your own suggestion below.</p>
+                </section>
+            </div>
+        </div>
+        <!-- /.callout -->
     </div>
 
     <div>
@@ -38,7 +50,7 @@
       <hr class="block-divider">
     </div>
 
-    <div class="card-columns">
+    <div class="card-columns vote-columns">
       <div class="card p-3 text-center">
         <blockquote class="blockquote mb-0">
           <p>Citizen Kane</p>
@@ -130,6 +142,34 @@
         </blockquote>
       </div>
     </div>
+    <!-- Additional bottom margin added here due to 0 auto centering used for the suggestion box. Bootstrap col controls don't appear to center quite as well. -->
+    <div>
+      <h3 class="schedule-text">Have A Better Idea?</h3>
+      <hr class="block-divider block-divider-bottom-margin">
+    </div>
+
+    <div class="card suggestion-box text-center">
+      <div class="card-header">
+        Suggestion Box
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">What would you like to see?</h5>
+        <p class="card-text">We always enjoy suggestions from our visitors, if you have a great idea then please share!</p>
+        <form action="https://formdump.codeinstitute.net/" method="post">
+          <div class="row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Movie Title" name="movie-title" required>
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Year of Release" name="year-of-release" required>
+            </div>
+          </div>
+          <button class="btn btn-success suggestion-button" type="submit">Submit</button>
+          </form>
+      </div>
+    </div>
+    <!-- margin 0 auto causes issues for bottom padding - utilising this as a workaround to keep the formatting consistent -->
+    <p></p>
 
     <footer class="footer-container">
         <div>
