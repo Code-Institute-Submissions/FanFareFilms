@@ -53,6 +53,18 @@ Pages
     Where we are
     What we do.
 
+Design Decisions
+
+  General colouration:
+  Grey/black and white was chosen for two reasons - one as it gives a nice clean feel (in my opinion) and doesnt detract from the feel of the black and white films on show. Bright, brash colours would have done so I believe.
+
+  The calls to action are the exception here - green throughout due to it not being shocking, whilst invoking a positive feel.
+
+  Vote page:
+  Center alignment was the main decision made here - left alignment as before looked messy due to the lack of images. Finding license allowed images for big classic movies was a struggle so design aesthetic was amended whilst keeping the same feel.
+
+  Getting everything centered then changed the margin design - additional styling was needed to bring the right spacing in between the elements - code commented where this is applicable for future explanation.
+
 
 Technologies
   replit
@@ -93,7 +105,7 @@ Features to add:
   Date validation - currently using this week/next week. Calendar dropdown with valid dates available. Would be linked to a database of upcoming.
   Likely would go with something such as: https://bootstrap-datepicker.readthedocs.io/en/latest/
 
-  Requires additional knowledge of JS and Jquery though appears achievable. Carepoints would include ensuring past bookings are not possible and only future bookings that fall on appropriate scheduled days.
+  Requires additional knowledge of JS and Jquery, though appears achievable. Carepoints would include ensuring past bookings are not possible and only future bookings that fall on appropriate scheduled days.
 
   
 

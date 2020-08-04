@@ -107,6 +107,11 @@ letter-spacing: 4px;
   background-size: cover;
 }
 
+.hero-container-about {
+  background: url('../Images/about.jpg') no-repeat bottom right fixed;
+  background-size: cover;
+}
+
 .opaque-overlay {
     position: absolute;
     top: 0;
@@ -219,6 +224,7 @@ letter-spacing: 4px;
 
 .card-title {
   font-size: 120%;
+  padding-top: 5px;
 }
 
 .card-img-top-book {
@@ -276,6 +282,14 @@ object-fit: cover;
 .custom-select-sm {
   margin-bottom: 5px;
 }
+
+/* ---------------------------------------------------Map */
+
+.map-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
 
 /* ---------------------------------------------------Footer */
 
