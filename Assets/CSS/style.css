@@ -246,6 +246,11 @@ letter-spacing: 4px;
   
 }
 
+.who-we-are-card {
+  width: 70%;
+  margin: 0 auto;
+}
+
 /*
 .card-img-top {
     width: 100%;

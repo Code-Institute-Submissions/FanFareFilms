@@ -82,6 +82,9 @@ Attributation
   Hero image - Vote
   https://www.pexels.com/photo/person-dropping-paper-on-box-1550337/
 
+  Hero image - About
+  https://www.pexels.com/photo/board-cinema-cinematography-clapper-board-274937/
+
   The Big Sleep image
   https://pixabay.com/photos/humphrey-bogart-lauren-bacall-619157/
 
@@ -104,8 +107,29 @@ Attributation
 Features to add:
   Date validation - currently using this week/next week. Calendar dropdown with valid dates available. Would be linked to a database of upcoming.
   Likely would go with something such as: https://bootstrap-datepicker.readthedocs.io/en/latest/
+  Or:
+  https://formvalidation.io/guide/getting-started as this one has some useful built in abilities to only specify a certain date range.
 
   Requires additional knowledge of JS and Jquery, though appears achievable. Carepoints would include ensuring past bookings are not possible and only future bookings that fall on appropriate scheduled days.
+
+
+Testing
+  Between-page links
+    Top header bar 
+      Index
+      Book 
+      Vote 
+      About
+
+  Server submissions
+
+  Responsiveness
+
+  UX and screenreader compatibility
+
+  User story walkthroughs
+
+
 
   
 
