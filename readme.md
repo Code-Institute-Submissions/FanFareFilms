@@ -128,6 +128,7 @@ Testing
   UX and screenreader compatibility
 
   User story walkthroughs
+    Decided to move the IMDB details to the front page and the book option to 'more'. This gives return users a more accessible intro to the information they seek immediately as they visit the page.
 
 
 
