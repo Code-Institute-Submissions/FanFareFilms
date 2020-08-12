@@ -97,6 +97,28 @@ Attributation
   Prisoner of Zenda image
   https://pixabay.com/photos/ronald-colman-madeleine-carroll-403399/
 
+  Citizen Kane image imagehttps://commons.wikimedia.org/wiki/File:Citizen-Kane-Cotten-Welles-Sloane-Sanford.jpg
+
+  The Maltese Falcon image
+  https://commons.wikimedia.org/wiki/File:Maltese-Falcon-Tell-the-Truth-1941.jpg
+
+  Treasures of the Sierra Madre image
+  https://commons.wikimedia.org/wiki/File:Humphrey_Bogart_Walter_Huston_The_Treasure_of_the_Sierra_Madre_Still.jpg
+
+  Dark Passage image
+  https://pl.wikipedia.org/wiki/Plik:Dark_Passage_1947_Lobby_Card_1.jpg
+
+  Casablanca image
+  https://www.flickr.com/photos/72006245@N05/6506075403
+  Creative commons licence located on a page link there which follows through to:
+  https://creativecommons.org/licenses/by/2.0/
+
+  The Great Dictator image
+  https://www.flickr.com/photos/tom-margie/1535376771
+  Creative commons licence located on a page link there which follows through to:
+  https://creativecommons.org/licenses/by/2.0/
+
+
   Assistance on name and value for form button submission on book page:
   https://stackoverflow.com/questions/37973455/pass-additional-data-with-submit-button 
 
