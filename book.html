@@ -6,7 +6,6 @@
     <script src="https://kit.fontawesome.com/5b83da489c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     
-    
     <title>Fanfare Films</title>
     <link href="Assets/CSS/style.css" rel="stylesheet" type="text/css" />
   </head>
@@ -37,6 +36,7 @@
         <div class="opaque-overlay">&nbsp;</div>
         <div class="row">
             <div class="col-12">
+              <!-- Hero Image Credit 'pixabay' - See Readme for Link -->
                 <section class="callout jumbotron text-center">
                     <h1 class="jumbotron-header">Book a seat below for the current classics.</h1>
                     <hr class="block-divider block-divider-white">
@@ -46,8 +46,8 @@
                 </section>
             </div>
         </div>
-        <!-- /.callout -->
     </div>
+    <!-- Bookings cards -->
     <div>
       <h3 class="schedule-text">Book With Us</h3>
       <hr class="block-divider">
@@ -55,16 +55,21 @@
 
     <div class="card-deck" id="bookings">
       <div class="card text-center">
+        <!-- Image Credit 'skeeze' - See Readme for Link -->
         <img class="card-img-top card-img-top-book" src="Assets/Images/the-big-sleep.jpg" alt="The Big Sleep - 1946">
+        <!-- Movie Details -->
         <div class="card-block">
           <h4 class="card-title">(1946) The Big Sleep</h4>
           <p class="card-text card-text-no-space"><small class="text-muted">Runtime: 114min </small></p>
           <p class="card-text card-text-no-space"><small class="text-muted">Rating: Not Rated - Advised PG</small></p>
           <p class="card-text card-text-no-space"><small class="text-muted">Director: Howard Hawks</small></p>
           <p class="card-text card-text-no-space"><small class="text-muted">Leading Cast: Humphrey Bogart, Lauren Bacall</small></p>
+          <!-- IMDB Link - Font Awesome -->
           <a href="https://www.imdb.com/title/tt0038355/" target="_blank" class="card-text imdb-rating"><i class="fab fa-imdb"></i></a>
+          <!-- Fanfare Note and showings -->
           <p class="card-text"><small class="text-muted">FanFare Note: The main cast pairing also appears in 'Two Have and Have Not', where their onscreen chemistry stunned audiences of the day.</small></p>
           <p class="card-text"><small class="text-muted">Showings this week: 13:50, 15:25, 18:30, 20:45.</small></p>
+          <!-- Form leading to a simulated bookings confirmed page - utilsing Code Institute test page -->
           <form action="https://formdump.codeinstitute.net/" method="post" target="_blank">
             <select class="custom-select custom-select-sm" name="The-Big-Sleep-visit-day" required>
               <option selected disabled>Choose a day</option>
@@ -83,20 +88,25 @@
             </select>
             <button class="btn btn-success book-button" type="submit">Book</button>
           </form>
-           
         </div>
       </div>
+
       <div class="card text-center">
+        <!-- Image Credit 'skeeze' - See Readme for Link -->
         <img class="card-img-top card-img-top-book" src="Assets/Images/angel-and-the-badman.jpg" alt="Angel and the Badman - 1947">
+        <!-- Movie Details -->
         <div class="card-block">
           <h4 class="card-title">(1947) Angel and the Badman</h4>
           <p class="card-text card-text-no-space"><small class="text-muted">Runtime: 100min </small></p>
           <p class="card-text card-text-no-space"><small class="text-muted">Rating: Not Rated - Advised PG</small></p>
           <p class="card-text card-text-no-space"><small class="text-muted">Director: James Edward Grant</small></p>
           <p class="card-text card-text-no-space"><small class="text-muted">Leading Cast: John Wayne, Gail Russell</small></p>
+          <!-- IMDB Link - Font Awesome -->
           <a href="https://www.imdb.com/title/tt0039152/?ref_=fn_al_tt_1" target="_blank" class="card-text imdb-rating"><i class="fab fa-imdb"></i></a>
+          <!-- Fanfare Note and showings -->
           <p class="card-text"><small class="text-muted">FanFare Note: This was the first film where John Wayne had a major role behind the camera as well as in front. A man of many talents.</small></p>
           <p class="card-text"><small class="text-muted">Showings this week: 12:20, 14:10, 17:20, 19:35.</small></p>
+          <!-- Form leading to a simulated bookings confirmed page - utilsing Code Institute test page -->
           <form action="https://formdump.codeinstitute.net/" method="post" target="_blank">
             <select class="custom-select custom-select-sm" name="Angel-and-the-Badman-visit-day" required>
               <option selected disabled>Choose a day</option>
@@ -117,17 +127,23 @@
           </form>
         </div>
       </div>
+
       <div class="card text-center">
+        <!-- Image Credit 'skeeze' - See Readme for Link -->
         <img class="card-img-top card-img-top-book" src="Assets/Images/detour.jpg" alt="Detour - 1945">
+        <!-- Movie Details -->
         <div class="card-block">
           <h4 class="card-title">(1945) Detour</h4>
           <p class="card-text card-text-no-space"><small class="text-muted">Runtime: 68min </small></p>
           <p class="card-text card-text-no-space"><small class="text-muted">Rating: Not Rated - Advised 15</small></p>
           <p class="card-text card-text-no-space"><small class="text-muted">Director: Edgar G. Ulmer</small></p>
           <p class="card-text card-text-no-space"><small class="text-muted">Leading Cast: Tom Neal, Ann Savage</small></p>
+          <!-- IMDB Link - Font Awesome -->
           <a href="https://www.imdb.com/title/tt0037638/?ref_=nv_sr_srsg_5" target="_blank" class="card-text imdb-rating"><i class="fab fa-imdb"></i></a>
+          <!-- Fanfare Note and showings -->
           <p class="card-text"><small class="text-muted">FanFare Note: Watch closely and you'll notice that the first hitchiking scene is reversed - drivers and cars both on the wrong sides.</small></p>
           <p class="card-text"><small class="text-muted">Showings this week: 13:10, 15:55, 18:15, 20:10.</small></p>
+          <!-- Form leading to a simulated bookings confirmed page - utilsing Code Institute test page -->
           <form action="https://formdump.codeinstitute.net/" method="post" target="_blank">
             <select class="custom-select custom-select-sm" name="Detour-visit-day" required>
               <option selected disabled>Choose a day</option>
@@ -150,16 +166,21 @@
         </div>
 
       <div class="card text-center">
+        <!-- Image Credit 'skeeze' - See Readme for Link -->
         <img class="card-img-top card-img-top-book" src="Assets/Images/prisoner-of-zenda.jpg" alt="The Prisoner of Zenda - 1937">
+        <!-- Movie Details -->
         <div class="card-block">
           <h4 class="card-title">(1937) The Prisoner of Zenda</h4>
           <p class="card-text card-text-no-space"><small class="text-muted">Runtime: 101min </small></p>
           <p class="card-text card-text-no-space"><small class="text-muted">Rating: Not Rated - Advised PG</small></p>
           <p class="card-text card-text-no-space"><small class="text-muted">Director: John Cromwell</small></p>
           <p class="card-text card-text-no-space"><small class="text-muted">Leading Cast: Ronald Colman, Madeleine Carroll</small></p>
+          <!-- IMDB Link - Font Awesome -->
           <a href="https://www.imdb.com/title/tt0029442/?ref_=nv_sr_srsg_3" target="_blank" class="card-text imdb-rating"><i class="fab fa-imdb"></i></a>
+          <!-- Fanfare Note and showings -->
            <p class="card-text"><small class="text-muted">FanFare Note: Ronald Colman plays two roles here. Having them both onscreen at the same time is normal today, but was quite the feat in 1937!</small></p>
           <p class="card-text"><small class="text-muted">Showings this week: 12:50, 14:35, 17:45, 19:10.</small></p>
+          <!-- Form leading to a simulated bookings confirmed page - utilsing Code Institute test page -->
           <form action="https://formdump.codeinstitute.net/" method="post" target="_blank">
             <select class="custom-select custom-select-sm" name="The-Prisoner-of-Zenda-visit-day" required>
               <option selected disabled>Choose a day</option>

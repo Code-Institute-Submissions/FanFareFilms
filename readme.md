@@ -18,6 +18,7 @@ Site Owner Goal
 
 
 User Stories
+
   User A - New Customer
     A new customer will want to know what they can watch at this cinema
     A new customer will want details of the film to aid in selection
@@ -26,6 +27,8 @@ User Stories
     Confirmation that booking as been successful
     Location of the cinema. Parking.
     Details of snacks availability and policy
+
+
 
   User B - Returning Customer
     Returning customer will also want to see the schedule, film details
@@ -37,21 +40,19 @@ User Stories
 Pages
   Home Page
     Eye catching hero image
-    Call to action
-    Schedule prominent
+    Call to action - These are consistent through the site leading on a journey - Home --> Book --> Vote --> About Us --> Home
+    Short description of what they are looking at - location, theme and what how they can interact and participate
+    Schedule prominent, calls to action eye catching for more details
 
   bookings
-    Booking page to capture details - External ticketmaster/internal bookings?
+    Booking page to capture details.
+    Users arrive here after wanting to 'see more' from the schedule. They are presented with film details and the ability to select their day and time to book. There is a prominent imdb logo so they can see reviews if they want to also.
 
   voting
-    Vote for your next classic
-    Sign up for notifications
-    Suggestions for next vote
+    After you book you are encouraged to go and vote, there is a reminder on the homepage text also, along with about. This is the call for return custom, giving users a choice in what they can see. There is also a selection box should none of the current votes take their fancy.
 
   about
-    How it works (what we do?)
-    Where we are
-    What we do.
+    Here the users find more about us, our drive for films and our encouragement for them to join us in it. The personal writing leads to people (ideally) being more invested, feeling like they are being written to individually to try to drive repeat custom from film enthusiasts, like the site creators.
 
 Design Decisions
 
@@ -62,15 +63,22 @@ Design Decisions
 
   Vote page:
   Center alignment was the main decision made here - left alignment as before looked messy due to the lack of images. Finding license allowed images for big classic movies was a struggle so design aesthetic was amended whilst keeping the same feel.
+  This decision then lead to a liking for centre alignment, so it was adopted throughout the site. 
+  I felt that it kept the user eyes focused down from the centre aligned hero text, flowing down the page.
 
   Getting everything centered then changed the margin design - additional styling was needed to bring the right spacing in between the elements - code commented where this is applicable for future explanation.
+
+  Code:
+  The code has been commented into general sections throughout, however I have chosen to add additional comments to book.html and vote.html due to them having large blocks of code within each card element. 
+  The comments split this a little making it easier to read along with highlighting where changes can be targeted if needed.
 
 
 Technologies
   replit
   Bootstrap for card framework, container code
 
-
+Deployment procedure
+  Github pages utilised for deployment - process as follows:
 
 Attributation
   Header and Nav from Code Institute Love Running Project.
@@ -97,7 +105,7 @@ Attributation
   Prisoner of Zenda image
   https://pixabay.com/photos/ronald-colman-madeleine-carroll-403399/
 
-  Citizen Kane image imagehttps://commons.wikimedia.org/wiki/File:Citizen-Kane-Cotten-Welles-Sloane-Sanford.jpg
+  Citizen Kane image https://commons.wikimedia.org/wiki/File:Citizen-Kane-Cotten-Welles-Sloane-Sanford.jpg
 
   The Maltese Falcon image
   https://commons.wikimedia.org/wiki/File:Maltese-Falcon-Tell-the-Truth-1941.jpg
@@ -125,6 +133,8 @@ Attributation
   Assistance on how to jump to a specific part of another page - namely the bookings section of book.html for this project:
   https://stackoverflow.com/questions/17687328/getting-a-link-to-go-to-a-specific-section-on-another-page
 
+  Readme screenshot information guide found here: https://medium.com/@justynagolawska/how-to-easily-add-screenshots-into-your-readme-file-on-github-d806a01d6ffd
+
 
 Features to add:
   Date validation - currently using this week/next week. Calendar dropdown with valid dates available. Would be linked to a database of upcoming.
@@ -151,6 +161,8 @@ Testing
 
   User story walkthroughs
     Decided to move the IMDB details to the front page and the book option to 'more'. This gives return users a more accessible intro to the information they seek immediately as they visit the page.
+
+    On mentor advice, most of the information has been transferred from the home page to encourage people to click through to Book. Keep the schedule on home with a teaser of information and then the meat of the content right before they confirm their booking.
 
 
 
