@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 
 /* Setting all widths for elements, we use the wildcard asterisk - standard practice*/
@@ -9,12 +10,12 @@
 }
 
 body {
-  font-family: Lato;
+  font-family: Lato, sans-serif;
   color: #777777;
 }
 
 h2{
-  font-family: "Special Elite";
+  font-family: "Special Elite", sans-serif;
   letter-spacing: 0px;
   color: #555555;
 }
@@ -55,46 +56,36 @@ letter-spacing: 4px;
 
 }
 
-/* here we target the menu children, removing the underlines, inherit the body colour, horizontally align the header also - matching line height with logo above   */
+/*  
+Underlining behaviour for the menu items, both on hover and on the currently active page. Style learned through the Love Running course which fits with the theme here. */
 #menu a {
   text-decoration: none;
   color: inherit;
 }
 
-/* This is a pseudoclass which allows us to change how html works. We hover over the links and they underline for us */
 #menu a:hover {
   border-bottom: 1px solid #777777;
 }
 
-/* this shows what page you are currently on, so is active when you are there */
 .active{
   border-bottom: 1px solid #777777;
-}
-
-#menu .icon {
-  display: none;
-}
-
-.navbar-toggler {
-  background-color: rgba(0, 0, 255, 0.25);
-  color: #fff;
 }
 
 /* ---------------------------------------------------Top Image */
 .hero-container {
   height: 70vh;
 
-    background: url('../Images/abstract-analog-art-camera-390089.jpg') no-repeat bottom right fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background: url('../Images/abstract-analog-art-camera-390089.jpg') no-repeat bottom right fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    position: relative;
+  position: relative;
 }
 
 .hero-container-booking {
@@ -118,7 +109,7 @@ letter-spacing: 4px;
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.45);
+    background-color: rgba(0, 0, 0, 0.50);
 }
 
 /* Jumbotron */
@@ -128,21 +119,14 @@ letter-spacing: 4px;
 }
 
 .jumbotron h1 {
-    color: white;
+    color: #fff;
     font-weight: bold;
     margin-bottom: 30px;
-    color: white;
 }
 
 .jumbotron .lead {
-    color: #fafafa;
+    color: #fff;
     margin: 25px 0;
-}
-
-.jumbotron small {
-    font-size: 60%;
-    font-style: italic;
-    color: #d0d0d0;
 }
 
 /* ---------------------------------------------------Dividers */
@@ -180,7 +164,7 @@ letter-spacing: 4px;
 }
 
 .btn--green {
-    color: white;
+    color: #fff;
     background-color: green;
     border-color: green;
 }
@@ -191,7 +175,7 @@ letter-spacing: 4px;
 .btn--green:active:focus {
     background-color: darkgreen;
     border-color: darkgreen;
-    color: white;
+    color: #fff;
 }
 
 .suggestion-button {
@@ -251,25 +235,8 @@ letter-spacing: 4px;
   margin: 0 auto;
 }
 
-/*
-.card-img-top {
-    width: 100%;
-    height: 20vw;
-    object-fit: cover;
-}
 
-*/
-
-/*
-.card-img-top {
-width: 100%;
-height: 40vh;
-object-fit: cover;
-}
-
-*/
-
-/* ---------------------------------------------------Schedule Icons */
+/* -------------------------------------------------Schedule Icons */
 
 .imdb-rating {
   font-size: 300%;
@@ -280,6 +247,10 @@ object-fit: cover;
 
 .imdb-rating:hover {
   color: #666666;
+}
+
+.imdb-rating-vote {
+  font-size: 250%;
 }
 
 
@@ -294,6 +265,15 @@ object-fit: cover;
 .map-container {
   width: 70%;
   margin: 0 auto;
+}
+
+.location-text {
+  font-size: 80%;
+  text-align: center;
+}
+
+.location-text a {
+  color: #fff;
 }
 
 
@@ -350,25 +330,18 @@ object-fit: cover;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 580px) {
   #menu li{
     font-size: 75%
   }
   #logo{
     font-size: 180%;
   }
+
+    
+  .card-img-top-book
+  {
+    height: 35vw;
+  }
 }
 
-@media screen and (max-width: 600px) {
-  #menu.responsive {position: relative;}
-  #menu.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  #menu.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-}

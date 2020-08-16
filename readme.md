@@ -159,10 +159,40 @@ Testing
 
   UX and screenreader compatibility
 
+
+  (Functionality, Usability, Respon)
+
   User story walkthroughs
     Decided to move the IMDB details to the front page and the book option to 'more'. This gives return users a more accessible intro to the information they seek immediately as they visit the page.
 
     On mentor advice, most of the information has been transferred from the home page to encourage people to click through to Book. Keep the schedule on home with a teaser of information and then the meat of the content right before they confirm their booking.
+
+    User A - New Customer
+      Immediately on visiting, the customer is presented with the home page (index.html):
+      (Index Link)
+      There they are presented with the information that the website is for a Nottingham-based cinema showing classic movies and the price per film.
+      They are given three options to navigate through the site - there is the top naviagation bar, with the first option being Book. Next there is a call to action in inviting green, also to book. Finally there is a peep of the section below the hero image inviting them to look at what films are on now.
+
+      On scrolling down the customer are presented with the four films showing this week, below a small description ensuring the customer knows how they can proceed - Book the film, then go over to the vote page to vote for the next film and then learn more at the about page:
+      (Scrolled down index link)
+
+      The Call to Action buttons are below each film, along with a short description of the film and eye catching images. On clicking to see more details, they are sent to the book.html page. Below this is the footer which has the cinema address and social media links - this is present on every page.
+
+      The next natural step is book.html. Coming here from the nav or hero calls to action brings the user to the top of the page
+      (book top image)
+
+      The user is encouraged to make their booking from the selection below and then afterwards head to vote.
+      Below the hero image the user can see a peep of a 'book with us' section. On scrolling down (or clicking the 'more details' buttons on the home page) the user is given the essential movie details, an imdb link for further details, a fun film note and the ability to dropdown select the day and time. 
+      (book films image)
+
+      Both fields are required to proceed and on submission, the user is this case is presented with a new page which uses Code Institutes confirmation page as a stand in for the booking database. 
+
+      Utilising either the navbar or the call to action at the top of the page, the new user can then proceed onto the vote page.
+
+      (vote image)
+
+
+    User B - Return Customer
 
 
 
