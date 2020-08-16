@@ -144,20 +144,108 @@ Features to add:
 
   Requires additional knowledge of JS and Jquery, though appears achievable. Carepoints would include ensuring past bookings are not possible and only future bookings that fall on appropriate scheduled days.
 
+  Going forward, repeat custom would be best served in implementing a user database and an emailer which would alert users to new films and specifically new films that they have actively voted for.
+
 
 Testing
   Between-page links
-    Top header bar 
-      Index
-      Book 
-      Vote 
-      About
+    Top Nav Bar 
+      Index - All functioning to each page
+      Book - All functioning to each page
+      Vote - All functioning to each page
+      About - All functioning to each page
+
+      Pass.
+    
+    Hero links
+      Index - Leads to book.html
+      Book - Leads to vote.html
+      Vote - Leads to about.html
+      About - Leads to index.html
+
+      Pass.
+
+    'See More' Links - located on index.html
+      The Big Sleep - Leads to book.html, bookings section
+      Angel and the Badman - Leads to book.html, bookings section
+      Detour - Leads to book.html, bookings section
+      The Prisoner of Zenda - Leads to book.html, bookings section
+
+      Pass.
 
   Server submissions
+    'Book' Links - located on book.html
+      The Big Sleep - Leads to 'Congratulations' page.
+        'Choose a day' unclickable.
+        Date Values represented on 'Congratulations' page
+        Time values represented on 'Congratulations' page
+        Times reflective of described times in 'showings this week'
+      
+      Angel and the Badman - Leads to 'Congratulations' page.
+        'Choose a day' unclickable.
+        Date Values represented on 'Congratulations' page
+        Time values represented on 'Congratulations' page
+        Times reflective of described times in 'showings this week'
+     
+      Detour - Leads to 'Congratulations' page.
+        'Choose a day' unclickable.
+        Date Values represented on 'Congratulations' page
+        Time values represented on 'Congratulations' page
+        Times reflective of described times in 'showings this week'
+      
+      The Prisoner of Zenda - Leads to 'Congratulations' page.
+        'Choose a day' unclickable.
+        Date Values represented on 'Congratulations' page
+        Time values represented on 'Congratulations' page
+        Times reflective of described times in 'showings this week'
+
+      Pass.
+
+    'Vote' links, located on vote.html
+       
+
+
+  IMDB Links
+    Book.html
+      The Big Sleep - Leads to the appropriate imdb page.
+
+      Angel and the Badman - Leads to the appropriate imdb page.
+
+      Detour - Leads to the appropriate imdb page.
+
+      the Prisoner of Zenda - Leads to the appropriate imdb page.
+
+      Pass.
+
+    Vote.html
+      Citizen Kane - Leads to the appropriate imdb page.
+
+      The Maltese Falcon - Leads to the appropriate imdb page.
+
+      Casablanca - Leads to the appropriate imdb page.
+
+      The Treasure of the Sierra Madre - Leads to the appropriate imdb page.
+
+      Dark Passage - Leads to the appropriate imdb page.
+
+      The Great Dictator - Leads to the appropriate imdb page.
+
+      Pass.
 
   Responsiveness
 
+    Problem arose when loaded onto a Galaxy Note 9 and turned sideways. 
+
   UX and screenreader compatibility
+    The following website was used to assess compatibility with screenreaders
+    https://wave.webaim.org/ 
+
+    Initial findings
+
+
+    Improvements
+
+  Browsers
 
 
   (Functionality, Usability, Respon)
@@ -184,15 +272,65 @@ Testing
       The user is encouraged to make their booking from the selection below and then afterwards head to vote.
       Below the hero image the user can see a peep of a 'book with us' section. On scrolling down (or clicking the 'more details' buttons on the home page) the user is given the essential movie details, an imdb link for further details, a fun film note and the ability to dropdown select the day and time. 
       (book films image)
+      (dropdown image)
+      (submit image)
 
       Both fields are required to proceed and on submission, the user is this case is presented with a new page which uses Code Institutes confirmation page as a stand in for the booking database. 
 
-      Utilising either the navbar or the call to action at the top of the page, the new user can then proceed onto the vote page.
+      Utilising either the navbar or the call to action at the top of the page, the new user can then proceed onto the vote page. There is also the option of them wanting to know where the cinema is at this point - the initial information on the homepage has told them that they can head to about.html, using the navbar or if they were to click on the address in the footer on any page, they will be taken to the location map.
+
+      Regarding the vote page:
 
       (vote image)
 
+      On the vote page, the user is presented initially with the instruction to cast their vote for the next film selection below. They are instructed afterwards to find out more at the about page. The user can see a peek of the 'Have your say' section, encouraging scrolling down.
+
+      (vote boxes image)
+      (submit image)
+
+      The user can look at a title image for six possible upcoming films along with a short description and the ability to click through to the imdb page for more information.
+      Should they want to cast a vote - the vote button takes them to a confirmation page.
+
+      Should none of the options appeal to the user, they are able to scroll slightly further and provide the name and year of a film of their choosing, submitting their choice after typing in both boxes.
+
+      (suggestion box image)
+      (submit image)
+
+      Finally the user is able to use the navbar or call to action button at the top of the vote page in order to find out more information from about.html.
+
+      (about image)
+
+      At the top of about.html, the user is presented with a guide to the information that they'll find below, along with the option to go back to the home page. This makes the journey cyclical should the user wish to do so.
+
+      (information image)
+
+      The user is also given a peek at the below information, where they are able to learn the story of the cinema, an overview again of the process of booking, voting, visiting along with appropriate calls to action.
+
+      (map image)
+
+      Finally the user is given an interactive map showing the location that they would visit when they attended. The user can scroll this around or click to view a larger map which allows them to program directions on the google maps site.
+
 
     User B - Return Customer
+      The primary difference between a new user and an existing user is that they likely already know the cinema details and how the process works.
+
+      For this reason, the navigation and schedule are prominent infront of them on the homepage. 
+      
+      (schedule image)
+
+      Therefore they can easily book a new film if they havent been that week, else have their say on upcoming films as the vote navigation is easy to get to from arriving at the website.
+
+      Otherwise, due to the nature of the changing films, they share a journey in booking a film to watch and having the ability to vote for what they prefer to see upcoming. 
+      
+      (vote image)
+      
+      They may wish to see if the film that they have voted for has made it into the cinema and for that reason, the schedule being prominent on the homepage still fits their purpose well.
+
+      This can be improved in future with a mailing list database, where the returning user is alerted to their chosen film being selected for showing. This will also require a sign-up database and appropriate data-capture and email functionality.
+
+      In the current absence of this, the concept of the vote system is specifically made to try to drive repeat custom. Allowing the repeat user to come to the site and have a say in the cinemas upcoming films encourages more regular traffic to check in on new films and whether their suggestions have come into the new line-up.
+
+
 
 
 
