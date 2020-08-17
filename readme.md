@@ -11,23 +11,24 @@ Site Owner Goal
 
 
 User Stories
+  These will be brief touchpoints of what the user is looking for from this site. The full walkthrough is later in the readme of the entire completed journey.
 
   User A - New Customer
-    A new customer will want to know what they can watch at this cinema
-    A new customer will want details of the film to aid in selection
+    A new customer will want to know what they can watch at this cinema.
+    A new customer will want details of the film to aid in selection.
     Price, runtime, days and times that the film shows.
-    Ability to book chosen film at chosen times
-    Confirmation that booking as been successful
+    Ability to book chosen film at chosen times.
+    Confirmation that booking as been successful.
     Location of the cinema. Parking.
-    Details of snacks availability and policy
+    Details of snacks availability and policy.
 
 
 
   User B - Returning Customer
-    Returning customer will also want to see the schedule, film details
-    Ability to book film
-    confirmation of film booking
-    ability to vote for upcoming film from selection - details of said films.
+    Returning customer will also want to see the schedule, film details.
+    Ability to book film.
+    Confirmation of film booking.
+    Ability to vote for upcoming film from selection - details of said films.
 
 
 Pages
@@ -49,24 +50,55 @@ Pages
 
 Design Decisions
 
-  General colouration:
+  General design:
   Grey/black and white was chosen for two reasons - one as it gives a nice clean feel (in my opinion) and doesnt detract from the feel of the black and white films on show. Bright, brash colours would have done so I believe.
 
   The calls to action are the exception here - green throughout due to it not being shocking, whilst invoking a positive feel.
 
+  The boostrap cards are also used throughout the project. This is to make the website have a consistent feel throughout, complementing the black/white design choice. In addition, the cards are excellent responsive tools and allow the information to remain presentable regardless of device.
+
+
+  Book Page:
+  This page went through several iterations, primarily on how the booking system itself would be represented in this project. Initially, the day was selected via click button (which would remain highlighted), then the clicked time button would pass through the information and also act as 'submit'
+
+  This was deemed as an inferior design due to the ability to make misclicks and accidentally submit a booking. The dropdowns were chosen after this as a safer option, complemented by a call to action in keeping with the other calls to action across the site.
+
   Vote page:
   Center alignment was the main decision made here - left alignment as before looked messy due to the lack of images. Finding license allowed images for big classic movies was a struggle so design aesthetic was amended whilst keeping the same feel.
   This decision then lead to a liking for centre alignment, so it was adopted throughout the site. 
-  I felt that it kept the user eyes focused down from the centre aligned hero text, flowing down the page.
+  It was felt that it kept the user eyes focused down from the centre aligned hero text, flowing down the page.
 
   Getting everything centered then changed the margin design - additional styling was needed to bring the right spacing in between the elements - code commented where this is applicable for future explanation.
+
+  After the midpoint meeting, i was introduced to a better way of looking for royalty-free images and managed to locate images for each of the six films here - vastly improving the feel of the page.
+
+  About page:
+  This page was originally going to be a section at the top of the main page. Instead it was swapped for a brief overview of how the process works and moved to its own page to be more in-depth.
+
+  The reasoning for this was not wanting to detract from the film schedule any more than necessary. This is the main draw of the site.
+
+  The bulk of the information is presented here for those wanting more details on the site story and it also incorporates an interactive map which should cut out any questions about location.
 
   Code:
   The code has been commented into general sections throughout, however I have chosen to add additional comments to book.html and vote.html due to them having large blocks of code within each card element. 
   The comments split this a little making it easier to read along with highlighting where changes can be targeted if needed.
 
+  Wireframes:
+  See images below for initial design ideas on mobile and desktop. Note that it was originally intended to be a one-page site however a multi-page made much more sense when going through the user stories.
 
-Technologies
+  Desktop
+  ![image](https://user-images.githubusercontent.com/61311614/90451440-bfe6e680-e0e3-11ea-91f3-421482074449.png)
+
+  ![image](https://user-images.githubusercontent.com/61311614/90451488-d68d3d80-e0e3-11ea-9d15-45f5225d1c7e.png)
+
+  ![image](https://user-images.githubusercontent.com/61311614/90451521-eefd5800-e0e3-11ea-98b7-80b1e2fa7435.png)
+
+  Mobile
+  ![image](https://user-images.githubusercontent.com/61311614/90451582-01779180-e0e4-11ea-89cc-22c0c9b4d9b4.png)
+
+  ![image](https://user-images.githubusercontent.com/61311614/90451668-3be12e80-e0e4-11ea-85a4-edfeced83711.png)
+
+Technologies used
   replit
   Bootstrap for card framework, container code
   GitHub
@@ -74,6 +106,16 @@ Technologies
 
 Deployment procedure
   Github pages utilised for deployment - process as follows:
+
+  Navigate to https://github.com/WrightDanG/FanFareFilms/
+
+  Settings, scroll down to Github pages
+
+  Select the master branch, root directory and click deploy.
+
+  Site is hosted at https://wrightdang.github.io/FanFareFilms/
+
+  On the first navigation, a 404 error was presented. Manually navigating to https://wrightdang.github.io/FanFareFilms/index.html resolved this and the website remained stable after that.
 
 Attributation
   Header and Nav from Code Institute Love Running Project.
@@ -323,14 +365,15 @@ Testing
 
       The imdb links did not have accompanying description
 
-      The imdb links were flagged to have the aria-hidden trait - this was labelled as a good feature however I disagree with this. The social and imdb links would be better served to be visible but descriptive so that all content is available to everyone.
+      Contrast remains an issue on this page.
+
 
       Vote.html
       Form labels, imdb links show the same issues here also.
 
+      Contrast is also an issue here, as above.
 
-    
-      
+      The same problems also are present on about.html.
 
 
     Improvements
@@ -339,12 +382,22 @@ Testing
 
       Amended the opacity for the hero image cover from 0.5 to 0.6, in order to meet contrast requirements.
 
+      Added 'aria-label' labels to all of the elements that were identified as requiring additional information, such as the dropdowns on book.html and the imdb links. The new labels describe the function of the menu or button.
+
+      Decided that h2 was more appropriate for the heading (since it shouldnt trump the logo) and ensured that they descend through h3 and h4 going onwards. 
+
   Browsers
+    The below browsers have had the website opened, navigated through and confirmed to be functional:
+      Firefox
+      Chrome
+      Microsoft Edge
 
   Testing that GitHub pages matches development version.
+    It was observed that the github pages version of the website took 10-15 minutes to reflect the development changes after a deployment.
 
+    Aside from that, the final github version matches the development version that is hosted on Repl.it.
+  
 
-  (Functionality, Usability, Respon)
 
   User story walkthroughs
     Decided to move the IMDB details to the front page and the book option to 'more'. This gives return users a more accessible intro to the information they seek immediately as they visit the page.
@@ -439,6 +492,9 @@ Testing
       This can be improved in future with a mailing list database, where the returning user is alerted to their chosen film being selected for showing. This will also require a sign-up database and appropriate data-capture and email functionality.
 
       In the current absence of this, the concept of the vote system is specifically made to try to drive repeat custom. Allowing the repeat user to come to the site and have a say in the cinemas upcoming films encourages more regular traffic to check in on new films and whether their suggestions have come into the new line-up.
+
+
+  The journey satisfies the proposed user story expectations listed at the beginning of the readme. 
 
 
 

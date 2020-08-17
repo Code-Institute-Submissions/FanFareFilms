@@ -276,11 +276,12 @@ Underlining behaviour for the menu items, both on hover and on the currently act
 /* ---------------------------------------------------Footer */
 
 .footer-container {
-  background-color: #777777;
+  background-color: #595959;
   
 }
 
 #logo-footer {
+  font-family: "Special Elite", sans-serif;
   text-align: center;
   font-size: 150%;
   padding-top: 20px;
