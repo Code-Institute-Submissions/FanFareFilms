@@ -328,6 +328,22 @@ Underlining behaviour for the menu items, both on hover and on the currently act
   {
     font-size: 250%;
   }
+
+  .jumbotron h1 {
+    font-size: 1.8rem;
+  }
+
+  .jumbotron p {
+    font-size: 1rem;
+  }
+
+  .btn-lg {
+    font-size: 1rem;
+  }
+
+  .btn--cta {
+    width: 120px;
+  }
 }
 
 @media screen and (max-width: 580px) {

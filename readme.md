@@ -156,6 +156,14 @@ Testing
       About - All functioning to each page
 
       Pass.
+
+    Fanfare Films logo
+      Index - Leads to index.html
+      Book - Leads to index.html
+      Vote - Leads to index.html
+      About - Leads to index.html
+
+      Pass.
     
     Hero links
       Index - Leads to book.html
@@ -173,6 +181,37 @@ Testing
 
       Pass.
 
+    'What we do' links - located on about.html
+      'Book Now' button on Step 1 - Leads to book.html
+      'Vote' button on Step 2 - Leads to vote.html
+      'Schedule' button on Step 3 - Leads to the schedule cards on index.html
+
+      Pass.
+
+    Map on about.html
+      Map shows 123 Nottingham Road.
+      Map can be moved and Scrolled
+      'Directions' and 'view larger map' links are functionality
+
+      Pass.
+
+    Footer address link
+      Index - Clicking '123 Nottingham Road' takes you to the map in about.html
+      Book - Clicking '123 Nottingham Road' takes you to the map in about.html
+      Vote - Clicking '123 Nottingham Road' takes you to the map in about.html
+      About - Clicking '123 Nottingham Road' takes you to the map in about.html
+
+      Pass.
+
+    Footer Social Links
+      Index - Facebook, Instagram and Twitter all go to their respective home pages. 
+      Book - Facebook, Instagram and Twitter all go to their respective home pages. 
+      Vote - Facebook, Instagram and Twitter all go to their respective home pages. 
+      About - Facebook, Instagram and Twitter all go to their respective home pages. 
+
+      Pass.
+
+      
   Server submissions
     'Book' Links - located on book.html
       The Big Sleep - Leads to 'Congratulations' page.
@@ -202,6 +241,28 @@ Testing
       Pass.
 
     'Vote' links, located on vote.html
+      Citizen Kane - Leads to 'Congratulations' page with appropriate content.
+
+      The Maltese Falcon - Leads to 'Congratulations' page with appropriate content.
+
+      Casablanca - Leads to 'Congratulations' page with appropriate content.
+
+      The Treasure of the Sierra Madre - Leads to 'Congratulations' page with appropriate content.
+
+      Dark Passage - Leads to 'Congratulations' page with appropriate content.
+
+      The Great Dictator - Leads to 'Congratulations' page with appropriate content.
+
+      Pass.
+
+    'Suggestion Box', located on vote.html
+      Movie input is reflected on 'Congratulations' page.
+      Movie Year input is reflected on 'Congratulations' page.
+
+      Pass.
+
+
+
        
 
 
