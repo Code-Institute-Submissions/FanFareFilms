@@ -76,6 +76,8 @@ Design Decisions
 Technologies
   replit
   Bootstrap for card framework, container code
+  GitHub
+  GitHub Pages
 
 Deployment procedure
   Github pages utilised for deployment - process as follows:
@@ -261,11 +263,6 @@ Testing
 
       Pass.
 
-
-
-       
-
-
   IMDB Links
     Book.html
       The Big Sleep - Leads to the appropriate imdb page.
@@ -297,6 +294,20 @@ Testing
 
     Problem arose when loaded onto a Galaxy Note 9 and turned sideways. 
 
+    The problem was identified as the jumbotron header text clipping through the navbar, primarily when the display was wide but short.
+
+    This was rectified by the addition of a media query CSS style which reduces the jumbotron text side on smaller screens.
+
+    Otherwise, the cards responsively move and rearrange to suit screen size and are appropriate for both larger and smaller devices.
+
+    This has been tested using the following settings on Firefox Developer Tools:
+    Galaxy S9/S9+
+    iPad
+    iPhone 6/7/8
+    iPhone 6/7/8 Plus
+    iPhone X/XS
+    Kindle Fire HDX
+
   UX and screenreader compatibility
     The following website was used to assess compatibility with screenreaders
     https://wave.webaim.org/ 
@@ -316,58 +327,72 @@ Testing
 
     On mentor advice, most of the information has been transferred from the home page to encourage people to click through to Book. Keep the schedule on home with a teaser of information and then the meat of the content right before they confirm their booking.
 
+    Throughout the site, cards have been utilised to present the groups of information. These are fully responsive so rearrange to neatly present the information to the user, regardless of device size.
+
     User A - New Customer
       Immediately on visiting, the customer is presented with the home page (index.html):
-      (Index Link)
+
+      ![image](https://user-images.githubusercontent.com/61311614/90414761-1c2c1500-e0a8-11ea-9117-c50845506519.png) 
+      
       There they are presented with the information that the website is for a Nottingham-based cinema showing classic movies and the price per film.
       They are given three options to navigate through the site - there is the top naviagation bar, with the first option being Book. Next there is a call to action in inviting green, also to book. Finally there is a peep of the section below the hero image inviting them to look at what films are on now.
 
       On scrolling down the customer are presented with the four films showing this week, below a small description ensuring the customer knows how they can proceed - Book the film, then go over to the vote page to vote for the next film and then learn more at the about page:
-      (Scrolled down index link)
+      
+      ![image](https://user-images.githubusercontent.com/61311614/90415776-7d081d00-e0a9-11ea-8ef9-de8033df90a8.png)
 
       The Call to Action buttons are below each film, along with a short description of the film and eye catching images. On clicking to see more details, they are sent to the book.html page. Below this is the footer which has the cinema address and social media links - this is present on every page.
 
       The next natural step is book.html. Coming here from the nav or hero calls to action brings the user to the top of the page
-      (book top image)
+      
+      ![image](https://user-images.githubusercontent.com/61311614/90415898-a6c14400-e0a9-11ea-9795-00735459cd12.png)
 
       The user is encouraged to make their booking from the selection below and then afterwards head to vote.
       Below the hero image the user can see a peep of a 'book with us' section. On scrolling down (or clicking the 'more details' buttons on the home page) the user is given the essential movie details, an imdb link for further details, a fun film note and the ability to dropdown select the day and time. 
-      (book films image)
-      (dropdown image)
-      (submit image)
+      
+      ![image](https://user-images.githubusercontent.com/61311614/90415990-cc4e4d80-e0a9-11ea-84ab-ffe9f18abf70.png)
+      
+      ![image](https://user-images.githubusercontent.com/61311614/90416059-e2f4a480-e0a9-11ea-8f2d-dbc8c72722c1.png)
+
+      ![image](https://user-images.githubusercontent.com/61311614/90416137-fe5faf80-e0a9-11ea-89d7-7e66ed2d15e3.png)
 
       Both fields are required to proceed and on submission, the user is this case is presented with a new page which uses Code Institutes confirmation page as a stand in for the booking database. 
+
+      ![image](https://user-images.githubusercontent.com/61311614/90416182-0d466200-e0aa-11ea-9ec6-0efc95184ed1.png)
 
       Utilising either the navbar or the call to action at the top of the page, the new user can then proceed onto the vote page. There is also the option of them wanting to know where the cinema is at this point - the initial information on the homepage has told them that they can head to about.html, using the navbar or if they were to click on the address in the footer on any page, they will be taken to the location map.
 
       Regarding the vote page:
 
-      (vote image)
+      ![image](https://user-images.githubusercontent.com/61311614/90416783-d3c22680-e0aa-11ea-8a92-b00e76984a76.png)
 
       On the vote page, the user is presented initially with the instruction to cast their vote for the next film selection below. They are instructed afterwards to find out more at the about page. The user can see a peek of the 'Have your say' section, encouraging scrolling down.
 
-      (vote boxes image)
-      (submit image)
+      ![image](https://user-images.githubusercontent.com/61311614/90416863-ee949b00-e0aa-11ea-9334-500da87095f3.png)
+
+      ![image](https://user-images.githubusercontent.com/61311614/90416905-fbb18a00-e0aa-11ea-8757-b449465577ab.png)
 
       The user can look at a title image for six possible upcoming films along with a short description and the ability to click through to the imdb page for more information.
       Should they want to cast a vote - the vote button takes them to a confirmation page.
 
       Should none of the options appeal to the user, they are able to scroll slightly further and provide the name and year of a film of their choosing, submitting their choice after typing in both boxes.
 
-      (suggestion box image)
-      (submit image)
+      ![image](https://user-images.githubusercontent.com/61311614/90417085-2f8caf80-e0ab-11ea-9e26-31f9c13e6879.png)
+
+      ![image](https://user-images.githubusercontent.com/61311614/90417265-619e1180-e0ab-11ea-91ff-b478ede74567.png)
+
 
       Finally the user is able to use the navbar or call to action button at the top of the vote page in order to find out more information from about.html.
 
-      (about image)
+      ![image](https://user-images.githubusercontent.com/61311614/90417543-c194b800-e0ab-11ea-8cc6-820e9c0d1999.png)
 
       At the top of about.html, the user is presented with a guide to the information that they'll find below, along with the option to go back to the home page. This makes the journey cyclical should the user wish to do so.
 
-      (information image)
+      ![image](https://user-images.githubusercontent.com/61311614/90417587-d3765b00-e0ab-11ea-80a7-bc08450732ab.png)
 
       The user is also given a peek at the below information, where they are able to learn the story of the cinema, an overview again of the process of booking, voting, visiting along with appropriate calls to action.
 
-      (map image)
+      ![image](https://user-images.githubusercontent.com/61311614/90417636-e8eb8500-e0ab-11ea-9e8d-1d222409fafc.png)
 
       Finally the user is given an interactive map showing the location that they would visit when they attended. The user can scroll this around or click to view a larger map which allows them to program directions on the google maps site.
 
@@ -377,13 +402,13 @@ Testing
 
       For this reason, the navigation and schedule are prominent infront of them on the homepage. 
       
-      (schedule image)
+      ![image](https://user-images.githubusercontent.com/61311614/90417732-0d476180-e0ac-11ea-9cec-9ade968bfac8.png)
 
       Therefore they can easily book a new film if they havent been that week, else have their say on upcoming films as the vote navigation is easy to get to from arriving at the website.
 
       Otherwise, due to the nature of the changing films, they share a journey in booking a film to watch and having the ability to vote for what they prefer to see upcoming. 
       
-      (vote image)
+      ![image](https://user-images.githubusercontent.com/61311614/90417797-25b77c00-e0ac-11ea-8a0d-f2fbb1d02441.png)
       
       They may wish to see if the film that they have voted for has made it into the cinema and for that reason, the schedule being prominent on the homepage still fits their purpose well.
 
