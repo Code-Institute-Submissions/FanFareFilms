@@ -11,7 +11,7 @@
 
 body {
   font-family: Lato, sans-serif;
-  color: #777777;
+  color: #595959;
 }
 
 #logo
@@ -104,7 +104,7 @@ Underlining behaviour for the menu items, both on hover and on the currently act
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.50);
+    background-color: rgba(0, 0, 0, 0.60);
 }
 
 /* Jumbotron */

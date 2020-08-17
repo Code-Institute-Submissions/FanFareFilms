@@ -316,6 +316,8 @@ Testing
 
       The program detected the 'See More' buttons as redundant, since they are next to one another and going to the same location.
 
+      Contrast between font and background colours did not meet standards
+
       Book.html
       Labels were not present on the form dropdowns
 
@@ -332,6 +334,10 @@ Testing
 
 
     Improvements
+
+      Amended the text colour from #777777 to #595959 in order to meet contrast requirements.
+
+      Amended the opacity for the hero image cover from 0.5 to 0.6, in order to meet contrast requirements.
 
   Browsers
 
