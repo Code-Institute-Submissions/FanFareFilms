@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <script src="https://kit.fontawesome.com/5b83da489c.js" crossorigin="anonymous"></script>
+    <html lang="en">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    
     <title>Fanfare Films</title>
     <link href="Assets/CSS/style.css" rel="stylesheet" type="text/css" />
   </head>
@@ -38,7 +38,7 @@
             <div class="col-12">
               <!-- Hero Image Credit 'pixabay' - See Readme for Link -->
                 <section class="callout jumbotron text-center">
-                    <h1 class="jumbotron-header">Book a seat below for the current classics.</h1>
+                    <h2 class="jumbotron-header">Book a seat below for the current classics.</h2>
                     <hr class="block-divider block-divider-white">
                     <p class="lead">Then head over to 'vote' for future favourites.</p>
                     <p class="lead">All for just £5.</p>
@@ -65,13 +65,13 @@
           <p class="card-text card-text-no-space"><small class="text-muted">Director: Howard Hawks</small></p>
           <p class="card-text card-text-no-space"><small class="text-muted">Leading Cast: Humphrey Bogart, Lauren Bacall</small></p>
           <!-- IMDB Link - Font Awesome -->
-          <a href="https://www.imdb.com/title/tt0038355/" target="_blank" class="card-text imdb-rating"><i class="fab fa-imdb"></i></a>
+          <a href="https://www.imdb.com/title/tt0038355/" target="_blank" class="card-text imdb-rating" aria-label="the-big-sleep-imdb-page"><i class="fab fa-imdb"></i></a>
           <!-- Fanfare Note and showings -->
           <p class="card-text"><small class="text-muted">FanFare Note: The main cast pairing also appears in 'Two Have and Have Not', where their onscreen chemistry stunned audiences of the day.</small></p>
           <p class="card-text"><small class="text-muted">Showings this week: 13:50, 15:25, 18:30, 20:45.</small></p>
           <!-- Form leading to a simulated bookings confirmed page - utilsing Code Institute test page -->
           <form action="https://formdump.codeinstitute.net/" method="post" target="_blank">
-            <select class="custom-select custom-select-sm" name="The-Big-Sleep-visit-day" required>
+            <select class="custom-select custom-select-sm" name="The-Big-Sleep-visit-day" required aria-label="the-big-sleep-choose-day">
               <option selected disabled>Choose a day</option>
               <option value="Monday">Monday</option>
               <option value="Tuesday">Tuesday</option>
@@ -79,7 +79,7 @@
               <option value="Friday">Friday</option>
               <option value="Saturday">Saturday</option>
             </select>
-            <select class="custom-select custom-select-sm" name="The-Big-Sleep-visit-time" required>
+            <select class="custom-select custom-select-sm" name="The-Big-Sleep-visit-time" required aria-label="the-big-sleep-choose-time">
               <option selected disabled>Choose a time</option>
               <option value="13:50">13:50</option>
               <option value="15:25">15:25</option>
@@ -212,9 +212,9 @@
         </div>
       
         <ul class="social-networks">
-          <li><a href ="https://www.facebook.com" target="_blank"> <i class="fab fa-facebook-square"></i></a></li>
-          <li><a href ="https://www.twitter.com" target="_blank"> <i class="fab fa-twitter-square"></i></a></li>
-          <li><a href ="https://www.instagram.com" target="_blank"> <i class="fab fa-instagram"></i></a></li>
+          <li><a href ="https://www.facebook.com" target="_blank" aria-label="link-to-facebook"> <i class="fab fa-facebook-square"></i></a></li>
+          <li><a href ="https://www.twitter.com" target="_blank" aria-label="link-to-twitter"> <i class="fab fa-twitter-square"></i></a></li>
+          <li><a href ="https://www.instagram.com" target="_blank" aria-label="link-to-instagram"> <i class="fab fa-instagram"></i></a></li>
         </ul>
         
     </footer>

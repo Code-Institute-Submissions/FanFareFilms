@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 
-/* Setting all widths for elements, we use the wildcard asterisk - standard practice*/
+/* Setting all widths for elements, we use the wildcard asterisk - code institute standard practice*/
 *{
     margin: 0;
     padding: 0;
@@ -14,38 +14,33 @@ body {
   color: #777777;
 }
 
-h2{
-  font-family: "Special Elite", sans-serif;
-  letter-spacing: 0px;
-  color: #555555;
-}
-
 #logo
 {
   float: left;
   font-size: 280%;
   margin-left: 30px;
   padding-top: 5px;
+  font-family: "Special Elite", sans-serif;
+  letter-spacing: 0px;
+  color: #555555;
 }
 
-
+/* Remove bulletpoints and ensure appropriate spacing */
 
 #menu {
 font-size: 110%;
-/* gets rid of the bulletpoints */
 list-style-type: none;
 letter-spacing: 4px;
 }
 
+/* floating the list items here to ensure that they are appropriately ordered with the menu itself being floated right. This can flip the elements. */
 #menu li {
-  /* float right here sends home to the far right, which is why we flip them in the html,
-  or better yet float the ul itself */
   margin-right: 30px;
   float: left;
 
 }
 
-/*floated the ul with this, but needed to float the items left so that they dont stack*/
+/*As above, menu float here and elements floated above, preventing them displaying in reverse order*/
 #mainmenu {
   float: right;
 }
@@ -71,7 +66,7 @@ Underlining behaviour for the menu items, both on hover and on the currently act
   border-bottom: 1px solid #777777;
 }
 
-/* ---------------------------------------------------Top Image */
+/* ---------------------------------------------------Top Image - attributations found in html code and readme. */
 .hero-container {
   height: 70vh;
 
@@ -84,7 +79,6 @@ Underlining behaviour for the menu items, both on hover and on the currently act
   display: flex;
   align-items: center;
   justify-content: center;
-
   position: relative;
 }
 
@@ -103,6 +97,7 @@ Underlining behaviour for the menu items, both on hover and on the currently act
   background-size: cover;
 }
 
+/* Overlay added to the header image, ensuring that we have enough contrast to view the text */
 .opaque-overlay {
     position: absolute;
     top: 0;
@@ -118,7 +113,7 @@ Underlining behaviour for the menu items, both on hover and on the currently act
     background-color: transparent;
 }
 
-.jumbotron h1 {
+.jumbotron h2 {
     color: #fff;
     font-weight: bold;
     margin-bottom: 30px;
@@ -150,7 +145,7 @@ Underlining behaviour for the menu items, both on hover and on the currently act
   margin-bottom: 20px;
 }
 
-/* Buttons */
+/* ---------------------------------------------------Buttons */
 
 /*require an ID on this main one due to an inherit class for "a links" located within the notes of bootstrap */
 #mainbutton {
@@ -195,6 +190,7 @@ Underlining behaviour for the menu items, both on hover and on the currently act
 .schedule-text {
   text-align: center;
   padding-top: 30px;
+  font-size: 1.75rem;
 }
 
 .card-deck {
@@ -298,6 +294,8 @@ Underlining behaviour for the menu items, both on hover and on the currently act
   font-size: 80%;
 }
 
+/* ------------------------------------------------ Footer Icons */
+
 .social-networks {
   text-align: center;
 }
@@ -306,7 +304,6 @@ Underlining behaviour for the menu items, both on hover and on the currently act
   display: inline;
 }
 
-/* This i target, targets the icons themselves */
 .social-networks li a i {
   font-size: 160%;
   margin: 2%;
@@ -318,7 +315,7 @@ Underlining behaviour for the menu items, both on hover and on the currently act
 /* Media Queries*/
 
 
-/* Continue testing logo and menu breakpoints*/
+/* On smaller screens, the eye catching page headers take up too much space, making this section - reducing menu, logo, header text and cta button smaller.*/
 
 @media screen and (max-width: 1000px){
   #menu li{
@@ -329,7 +326,7 @@ Underlining behaviour for the menu items, both on hover and on the currently act
     font-size: 250%;
   }
 
-  .jumbotron h1 {
+  .jumbotron h2 {
     font-size: 1.8rem;
   }
 
@@ -346,6 +343,7 @@ Underlining behaviour for the menu items, both on hover and on the currently act
   }
 }
 
+/* As screen size is reduced, the card images can get too thin and the logo and top nav takes up too much space, making this section needed */
 @media screen and (max-width: 580px) {
   #menu li{
     font-size: 75%
@@ -357,6 +355,13 @@ Underlining behaviour for the menu items, both on hover and on the currently act
   .card-img-top-book
   {
     height: 35vw;
+  }
+}
+
+/* It was found in testing that the nav became inaccessible on very small but wide screens. It was deemed that a functional nav was more important than the hero image so that the site remains functional */
+@media screen and (max-height: 300px) {
+  .hero-container {
+    display: none;
   }
 }
 

@@ -1,12 +1,5 @@
-Outline
+Readme - FanFare Films
 
-Readme Tasks:
-
-  Write a README.md file for the web application that explains its purpose, the value that it provides to its users, and the deployment procedure.
-
-  Insert screenshots of the finished project that align to relevant user stories
-
-  Attribute all code from external sources to its original source via comments above the code and (for larger dependencies) in the README.
 
 Site Owner Goal
   Site Owner also owns a cinema - FanFare Films. Site Owner is looking for a website that firstly allows online bookings - for classic films that users can find details about on the website itself. These should be prominent and eye catching.
@@ -44,14 +37,14 @@ Pages
     Short description of what they are looking at - location, theme and what how they can interact and participate
     Schedule prominent, calls to action eye catching for more details
 
-  bookings
+  Bookings
     Booking page to capture details.
     Users arrive here after wanting to 'see more' from the schedule. They are presented with film details and the ability to select their day and time to book. There is a prominent imdb logo so they can see reviews if they want to also.
 
-  voting
+  Voting
     After you book you are encouraged to go and vote, there is a reminder on the homepage text also, along with about. This is the call for return custom, giving users a choice in what they can see. There is also a selection box should none of the current votes take their fancy.
 
-  about
+  About
     Here the users find more about us, our drive for films and our encouragement for them to join us in it. The personal writing leads to people (ideally) being more invested, feeling like they are being written to individually to try to drive repeat custom from film enthusiasts, like the site creators.
 
 Design Decisions
@@ -138,11 +131,12 @@ Attributation
   Readme screenshot information guide found here: https://medium.com/@justynagolawska/how-to-easily-add-screenshots-into-your-readme-file-on-github-d806a01d6ffd
 
 
-Features to add:
+Desirable features to add:
   Date validation - currently using this week/next week. Calendar dropdown with valid dates available. Would be linked to a database of upcoming.
   Likely would go with something such as: https://bootstrap-datepicker.readthedocs.io/en/latest/
   Or:
-  https://formvalidation.io/guide/getting-started as this one has some useful built in abilities to only specify a certain date range.
+  https://formvalidation.io/guide/getting-started 
+  This one has some useful built in abilities to only specify a certain date range.
 
   Requires additional knowledge of JS and Jquery, though appears achievable. Carepoints would include ensuring past bookings are not possible and only future bookings that fall on appropriate scheduled days.
 
@@ -292,11 +286,11 @@ Testing
 
   Responsiveness
 
-    Problem arose when loaded onto a Galaxy Note 9 and turned sideways. 
+    In testing, a problem arose when loaded onto a Galaxy Note 9 and turned sideways. 
 
     The problem was identified as the jumbotron header text clipping through the navbar, primarily when the display was wide but short.
 
-    This was rectified by the addition of a media query CSS style which reduces the jumbotron text side on smaller screens.
+    This was rectified by the addition of a media query CSS style which reduces the jumbotron text side on smaller screens, followed by removing it entirely on screens that are particularly short and particularly wide.
 
     Otherwise, the cards responsively move and rearrange to suit screen size and are appropriate for both larger and smaller devices.
 
@@ -313,11 +307,35 @@ Testing
     https://wave.webaim.org/ 
 
     Initial findings
+      Index.html
+      Document language was missing in the head html
+
+      The social links in the footer of the pages did not have accompanying description
+
+      h2 was accidentally skipped, index.html featured a h1 and a h3
+
+      The program detected the 'See More' buttons as redundant, since they are next to one another and going to the same location.
+
+      Book.html
+      Labels were not present on the form dropdowns
+
+      The imdb links did not have accompanying description
+
+      The imdb links were flagged to have the aria-hidden trait - this was labelled as a good feature however I disagree with this. The social and imdb links would be better served to be visible but descriptive so that all content is available to everyone.
+
+      Vote.html
+      Form labels, imdb links show the same issues here also.
+
+
+    
+      
 
 
     Improvements
 
   Browsers
+
+  Testing that GitHub pages matches development version.
 
 
   (Functionality, Usability, Respon)
