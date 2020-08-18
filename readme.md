@@ -1,7 +1,7 @@
-#Readme - FanFare Films
+# Readme - FanFare Films
 
 
-##Site Owner Goal
+## Site Owner Goal
 Site Owner also owns a cinema - FanFare Films. Site Owner is looking for a website that firstly allows online bookings - for classic films that users can find details about on the website itself. These should be prominent and eye catching.
 Secondly - a voting system which allows returning users to vote for their next chosen classic, in order to drive repeat custom.
 
@@ -10,48 +10,48 @@ The motivation is to draw custom and revenue to the venue, by facilitating onlin
 The films are the focus, instead of the venue. The venue is merely the site, the draw is the films.
 
 
-##User Stories
+## User Stories
 These will be brief touchpoints of what the user is looking for from this site. The full walkthrough is later in the readme of the entire completed journey.
 
-###User A - New Customer
--A new customer will want to know what they can watch at this cinema.
--A new customer will want details of the film to aid in selection.
--Price, runtime, days and times that the film shows.
--Ability to book chosen film at chosen times.
--Confirmation that booking as been successful.
--Location of the cinema. Parking.
--Details of snacks availability and policy.
+### User A - New Customer
+- A new customer will want to know what they can watch at this cinema.
+- A new customer will want details of the film to aid in selection.
+- Price, runtime, days and times that the film shows.
+- Ability to book chosen film at chosen times.
+- Confirmation that booking as been successful.
+- Location of the cinema. Parking.
+- Details of snacks availability and policy.
 
-###User B - Returning Customer
--Returning customer will also want to see the schedule, film details.
--Ability to book film.
--Confirmation of film booking.
--Ability to vote for upcoming film from selection - details of said films.
+### User B - Returning Customer
+- Returning customer will also want to see the schedule, film details.
+- Ability to book film.
+- Confirmation of film booking.
+- Ability to vote for upcoming film from selection - details of said films.
 
 
-##Pages
+## Pages
   
-###Home Page
--Eye catching hero image
--Call to action - These are consistent through the site leading on a journey - Home --> Book --> Vote --> About Us --> Home
--Short description of what they are looking at - location, theme and what how they can interact and participate
--Schedule prominent, calls to action eye catching for more details
+### Home Page
+- Eye catching hero image
+- Call to action - These are consistent through the site leading on a journey - Home --> Book --> Vote --> About Us --> Home
+- Short description of what they are looking at - location, theme and what how they can interact and participate
+- Schedule prominent, calls to action eye catching for more details
 
-###Bookings
--Booking page to capture details.
--Users arrive here after wanting to 'see more' from the schedule. -They are presented with film details and the ability to select their day and time to book. There is a prominent imdb logo so they can see reviews if they want to also.
+### Bookings
+- Booking page to capture details.
+- Users arrive here after wanting to 'see more' from the schedule. - - They are presented with film details and the ability to select their day and time to book. There is a prominent imdb logo so they can see reviews if they want to also.
 
-###Voting
+### Voting
 After you book you are encouraged to go and vote, there is a reminder on the homepage text also, along with about. 
 This is the call for return custom, giving users a choice in what they can see. There is also a selection box should none of the current votes take their fancy.
 
-###About
+### About
 Here the users find more about us, our drive for films and our encouragement for them to join us in it. 
 The personal writing leads to people (ideally) being more invested, feeling like they are being written to individually to try to drive repeat custom from film enthusiasts, like the site creators.
 
-##Design Decisions
+## Design Decisions
 
-###General design:
+### General design:
 Grey/black and white was chosen for two reasons - one as it gives a nice clean feel (in my opinion) and doesnt detract from the feel of the black and white films on show. Bright, brash colours would have done so I believe.
 
 The calls to action are the exception here - green throughout due to it not being shocking, whilst invoking a positive feel.
@@ -59,12 +59,12 @@ The calls to action are the exception here - green throughout due to it not bein
 The boostrap cards are also used throughout the project. This is to make the website have a consistent feel throughout, complementing the black/white design choice. In addition, the cards are excellent responsive tools and allow the information to remain presentable regardless of device.
 
 
-###Book Page:
+### Book Page:
 This page went through several iterations, primarily on how the booking system itself would be represented in this project. Initially, the day was selected via click button (which would remain highlighted), then the clicked time button would pass through the information and also act as 'submit'
 
 This was deemed as an inferior design due to the ability to make misclicks and accidentally submit a booking. The dropdowns were chosen after this as a safer option, complemented by a call to action in keeping with the other calls to action across the site.
 
-###Vote page:
+### Vote page:
 Center alignment was the main decision made here - left alignment as before looked messy due to the lack of images. Finding license allowed images for big classic movies was a struggle so design aesthetic was amended whilst keeping the same feel.
 This decision then lead to a liking for centre alignment, so it was adopted throughout the site. 
 It was felt that it kept the user eyes focused down from the centre aligned hero text, flowing down the page.
@@ -73,21 +73,21 @@ Getting everything centered then changed the margin design - additional styling 
 
 After the midpoint meeting, i was introduced to a better way of looking for royalty-free images and managed to locate images for each of the six films here - vastly improving the feel of the page.
 
-###About page:
+### About page:
 This page was originally going to be a section at the top of the main page. Instead it was swapped for a brief overview of how the process works and moved to its own page to be more in-depth.
 
 The reasoning for this was not wanting to detract from the film schedule any more than necessary. This is the main draw of the site.
 
 The bulk of the information is presented here for those wanting more details on the site story and it also incorporates an interactive map which should cut out any questions about location.
 
-###Code:
+### Code:
 The code has been commented into general sections throughout, however I have chosen to add additional comments to book.html and vote.html due to them having large blocks of code within each card element. 
 The comments split this a little making it easier to read along with highlighting where changes can be targeted if needed.
 
-###Wireframes:
+### Wireframes:
 See images below for initial design ideas on mobile and desktop. Note that it was originally intended to be a one-page site however a multi-page made much more sense when going through the user stories.
 
-####Desktop
+#### Desktop
 ![image](https://user-images.githubusercontent.com/61311614/90451440-bfe6e680-e0e3-11ea-91f3-421482074449.png)
 
 
@@ -100,7 +100,7 @@ See images below for initial design ideas on mobile and desktop. Note that it wa
 
 
 
-####Mobile
+#### Mobile
 ![image](https://user-images.githubusercontent.com/61311614/90451582-01779180-e0e4-11ea-89cc-22c0c9b4d9b4.png)
 
 
@@ -109,13 +109,13 @@ See images below for initial design ideas on mobile and desktop. Note that it wa
 
 
 
-##Technologies used
+## Technologies used
 -Repl.it
 -Bootstrap for card framework, container code
 -GitHub
 -GitHub Pages
 
-##Deployment procedure
+## Deployment procedure
 -Github pages utilised for deployment - process as follows:
 -Navigate to https://github.com/WrightDanG/FanFareFilms/
 -Settings, scroll down to Github pages
@@ -124,7 +124,7 @@ See images below for initial design ideas on mobile and desktop. Note that it wa
 
 On the first navigation, a 404 error was presented. Manually navigating to https://wrightdang.github.io/FanFareFilms/index.html resolved this and the website remained stable after that.
 
-##Attributation
+## Attributation
 -Header and Nav from Code Institute Love Running Project.
 
 -Hero Image -  Home https://www.pexels.com/photo/abstract-analog-art-camera-390089/
@@ -180,7 +180,7 @@ https://stackoverflow.com/questions/17687328/getting-a-link-to-go-to-a-specific-
 -Readme screenshot information guide found here: https://medium.com/@justynagolawska/how-to-easily-add-screenshots-into-your-readme-file-on-github-d806a01d6ffd
 
 
-##Desirable features to add:
+## Desirable features to add:
 Date validation - currently using this week/next week. Calendar dropdown with valid dates available. Would be linked to a database of upcoming.
 Likely would go with something such as: https://bootstrap-datepicker.readthedocs.io/en/latest/
 Or:
@@ -192,76 +192,76 @@ Requires additional knowledge of JS and Jquery, though appears achievable. Carep
 Going forward, repeat custom would be best served in implementing a user database and an emailer which would alert users to new films and specifically new films that they have actively voted for.
 
 
-##Testing
+## Testing
 
-###Between-page links
+### Between-page links
 
-####Top Nav Bar 
+#### Top Nav Bar 
 Index - All functioning to each page
 Book - All functioning to each page
 Vote - All functioning to each page
 About - All functioning to each page
 
-####Pass.
+#### Pass.
 
-####Fanfare Films logo
+#### Fanfare Films logo
 Index - Leads to index.html
 Book - Leads to index.html
 Vote - Leads to index.html
 About - Leads to index.html
 
-####Pass.
+#### Pass.
 
-####Hero links
+#### Hero links
 Index - Leads to book.html
 Book - Leads to vote.html
 Vote - Leads to about.html
 About - Leads to index.html
 
-####Pass.
+#### Pass.
 
-####'See More' Links - located on index.html
+#### 'See More' Links - located on index.html
 The Big Sleep - Leads to book.html, bookings section
 Angel and the Badman - Leads to book.html, bookings section
 Detour - Leads to book.html, bookings section
 The Prisoner of Zenda - Leads to book.html, bookings section
 
-####Pass.
+#### Pass.
 
-####'What we do' links - located on about.html
+#### 'What we do' links - located on about.html
 'Book Now' button on Step 1 - Leads to book.html
 'Vote' button on Step 2 - Leads to vote.html
 'Schedule' button on Step 3 - Leads to the schedule cards on index.html
 
-####Pass.
+#### Pass.
 
-####Map on about.html
+#### Map on about.html
 Map shows 123 Nottingham Road.
 Map can be moved and Scrolled
 'Directions' and 'view larger map' links are functionality
 
-####Pass.
+#### Pass.
 
-####Footer address link
+#### Footer address link
 Index - Clicking '123 Nottingham Road' takes you to the map in about.html
 Book - Clicking '123 Nottingham Road' takes you to the map in about.html
 Vote - Clicking '123 Nottingham Road' takes you to the map in about.html
 About - Clicking '123 Nottingham Road' takes you to the map in about.html
 
-####Pass.
+#### Pass.
 
-####Footer Social Links
+#### Footer Social Links
 Index - Facebook, Instagram and Twitter all go to their respective home pages. 
 Book - Facebook, Instagram and Twitter all go to their respective home pages. 
 Vote - Facebook, Instagram and Twitter all go to their respective home pages. 
 About - Facebook, Instagram and Twitter all go to their respective home pages. 
 
-####Pass.
+#### Pass.
 
 
-###Server submissions
+### Server submissions
 
-####'Book' Links - located on book.html
+#### 'Book' Links - located on book.html
 The Big Sleep - Leads to 'Congratulations' page.
 -'Choose a day' unclickable.
 -Date Values represented on 'Congratulations' page
@@ -286,9 +286,9 @@ The Prisoner of Zenda - Leads to 'Congratulations' page.
 -Time values represented on 'Congratulations' page
 -Times reflective of described times in 'showings this week'
 
-####Pass.
+#### Pass.
 
-####'Vote' links, located on vote.html
+#### 'Vote' links, located on vote.html
 
 Citizen Kane - Leads to 'Congratulations' page with appropriate content.
 
@@ -302,17 +302,17 @@ Dark Passage - Leads to 'Congratulations' page with appropriate content.
 
 The Great Dictator - Leads to 'Congratulations' page with appropriate content.
 
-####Pass.
+#### Pass.
 
-####'Suggestion Box', located on vote.html
+#### 'Suggestion Box', located on vote.html
 Movie input is reflected on 'Congratulations' page.
 Movie Year input is reflected on 'Congratulations' page.
 
-####Pass.
+#### Pass.
 
-###IMDB Links
+### IMDB Links
 
-####Book.html
+#### Book.html
 
 The Big Sleep - Leads to the appropriate imdb page.
 
@@ -322,9 +322,9 @@ Detour - Leads to the appropriate imdb page.
 
 the Prisoner of Zenda - Leads to the appropriate imdb page.
 
-####Pass.
+#### Pass.
 
-####Vote.html
+#### Vote.html
 
 Citizen Kane - Leads to the appropriate imdb page.
 
@@ -338,9 +338,9 @@ Dark Passage - Leads to the appropriate imdb page.
 
 The Great Dictator - Leads to the appropriate imdb page.
 
-####Pass.
+#### Pass.
 
-###Responsiveness
+### Responsiveness
 
 In testing, a problem arose when loaded onto a Galaxy Note 9 and turned sideways. 
 
@@ -358,13 +358,13 @@ iPhone 6/7/8 Plus
 iPhone X/XS
 Kindle Fire HDX
 
-###UX and screenreader compatibility
+### UX and screenreader compatibility
 The following website was used to assess compatibility with screenreaders
 https://wave.webaim.org/ 
 
-####Initial findings
+#### Initial findings
 
-#####Index.html
+##### Index.html
 
 -Document language was missing in the head html
 
@@ -376,7 +376,7 @@ https://wave.webaim.org/
 
 -Contrast between font and background colours did not meet standards
 
-#####Book.html
+##### Book.html
 
 -Labels were not present on the form dropdowns
 
@@ -384,11 +384,11 @@ https://wave.webaim.org/
 
 -Contrast remains an issue on this page.
 
-#####Similar issues were located through vote.html and about.html
+##### Similar issues were located through vote.html and about.html
 
 
 
-####Improvements
+#### Improvements
 
 -Amended the text colour from #777777 to #595959 in order to meet contrast requirements.
 
@@ -398,21 +398,21 @@ https://wave.webaim.org/
 
 -Decided that h2 was more appropriate for the heading (since it shouldnt trump the logo) and ensured that they descend through h3 and h4 going onwards. 
 
-###Browsers
+### Browsers
 
 The below browsers have had the website opened, navigated through and confirmed to be functional:
 -Firefox
 -Chrome
 -Microsoft Edge
 
-###Testing that GitHub pages matches development version.
+### Testing that GitHub pages matches development version.
 It was observed that the github pages version of the website took 10-15 minutes to reflect the development changes after a deployment.
 
 Aside from that, the final github version matches the development version that is hosted on Repl.it.
   
 
 
-##User story walkthroughs
+## User story walkthroughs
 
 Decided to move the IMDB details to the front page and the book option to 'more'. This gives return users a more accessible intro to the information they seek immediately as they visit the page.
 
@@ -420,7 +420,7 @@ On mentor advice, most of the information has been transferred from the home pag
 
 Throughout the site, cards have been utilised to present the groups of information. These are fully responsive so rearrange to neatly present the information to the user, regardless of device size.
 
-###User A - New Customer
+### User A - New Customer
 
 Immediately on visiting, the customer is presented with the home page (index.html):
 
@@ -490,7 +490,7 @@ The user is also given a peek at the below information, where they are able to l
 Finally the user is given an interactive map showing the location that they would visit when they attended. The user can scroll this around or click to view a larger map which allows them to program directions on the google maps site.
 
 
-###User B - Return Customer
+### User B - Return Customer
 
 The primary difference between a new user and an existing user is that they likely already know the cinema details and how the process works.
 
