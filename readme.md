@@ -87,33 +87,35 @@ The comments split this a little making it easier to read along with highlightin
 ### Wireframes:
 See images below for initial design ideas on mobile and desktop. Note that it was originally intended to be a one-page site however a multi-page made much more sense when going through the user stories.
 
+
 #### Desktop
-![image](https://user-images.githubusercontent.com/61311614/90451440-bfe6e680-e0e3-11ea-91f3-421482074449.png)
+![image](https://user-images.githubusercontent.com/61311614/90532565-4eed1080-e16f-11ea-8dbd-bfcf3a6e4090.png)
 
 
 
-![image](https://user-images.githubusercontent.com/61311614/90451488-d68d3d80-e0e3-11ea-9d15-45f5225d1c7e.png)
+![image](https://user-images.githubusercontent.com/61311614/90532627-5f9d8680-e16f-11ea-87b5-bb74a430f5d3.png)
 
 
 
-![image](https://user-images.githubusercontent.com/61311614/90451521-eefd5800-e0e3-11ea-98b7-80b1e2fa7435.png)
+![image](https://user-images.githubusercontent.com/61311614/90532650-688e5800-e16f-11ea-9e36-89338d210f89.png)
 
 
 
 #### Mobile
-![image](https://user-images.githubusercontent.com/61311614/90451582-01779180-e0e4-11ea-89cc-22c0c9b4d9b4.png)
+![image](https://user-images.githubusercontent.com/61311614/90532512-409ef480-e16f-11ea-8c7e-ebebe482cd11.png)
 
 
 
-![image](https://user-images.githubusercontent.com/61311614/90451668-3be12e80-e0e4-11ea-85a4-edfeced83711.png)
+![image](https://user-images.githubusercontent.com/61311614/90532546-498fc600-e16f-11ea-82d3-0bbcc67c56cc.png)
 
 
 
 ## Technologies used
--Repl.it
--Bootstrap for card framework, container code
--GitHub
--GitHub Pages
+- Repl.it - this was the chosen development platform.
+- Bootstrap for card framework, container code - used throughout for rich content and responsive behaviour.
+- GitHub - utilised for cloud backups and project progression.
+- GitHub Pages - an aspect of github, used to deploy the finalised product.
+- Balsamiq - used to create wireframe ideas of how the website should look and function.
 
 ## Deployment procedure
 -Github pages utilised for deployment - process as follows:
@@ -214,15 +216,11 @@ Book - All functioning to each page
 Vote - All functioning to each page
 About - All functioning to each page
 
-#### Pass.
-
 #### Fanfare Films logo
 Index - Leads to index.html
 Book - Leads to index.html
 Vote - Leads to index.html
 About - Leads to index.html
-
-#### Pass.
 
 #### Hero links
 Index - Leads to book.html
@@ -230,29 +228,21 @@ Book - Leads to vote.html
 Vote - Leads to about.html
 About - Leads to index.html
 
-#### Pass.
-
 #### 'See More' Links - located on index.html
 The Big Sleep - Leads to book.html, bookings section
 Angel and the Badman - Leads to book.html, bookings section
 Detour - Leads to book.html, bookings section
 The Prisoner of Zenda - Leads to book.html, bookings section
 
-#### Pass.
-
 #### 'What we do' links - located on about.html
 'Book Now' button on Step 1 - Leads to book.html
 'Vote' button on Step 2 - Leads to vote.html
 'Schedule' button on Step 3 - Leads to the schedule cards on index.html
 
-#### Pass.
-
 #### Map on about.html
 Map shows 123 Nottingham Road.
 Map can be moved and Scrolled
 'Directions' and 'view larger map' links are functionality
-
-#### Pass.
 
 #### Footer address link
 Index - Clicking '123 Nottingham Road' takes you to the map in about.html
@@ -260,15 +250,11 @@ Book - Clicking '123 Nottingham Road' takes you to the map in about.html
 Vote - Clicking '123 Nottingham Road' takes you to the map in about.html
 About - Clicking '123 Nottingham Road' takes you to the map in about.html
 
-#### Pass.
-
 #### Footer Social Links
 Index - Facebook, Instagram and Twitter all go to their respective home pages. 
 Book - Facebook, Instagram and Twitter all go to their respective home pages. 
 Vote - Facebook, Instagram and Twitter all go to their respective home pages. 
 About - Facebook, Instagram and Twitter all go to their respective home pages. 
-
-#### Pass.
 
 
 ### Server submissions
@@ -298,7 +284,6 @@ The Prisoner of Zenda - Leads to 'Congratulations' page.
 -Time values represented on 'Congratulations' page
 -Times reflective of described times in 'showings this week'
 
-#### Pass.
 
 #### 'Vote' links, located on vote.html
 
@@ -314,13 +299,11 @@ Dark Passage - Leads to 'Congratulations' page with appropriate content.
 
 The Great Dictator - Leads to 'Congratulations' page with appropriate content.
 
-#### Pass.
 
 #### 'Suggestion Box', located on vote.html
 Movie input is reflected on 'Congratulations' page.
 Movie Year input is reflected on 'Congratulations' page.
 
-#### Pass.
 
 ### IMDB Links
 
@@ -334,7 +317,6 @@ Detour - Leads to the appropriate imdb page.
 
 the Prisoner of Zenda - Leads to the appropriate imdb page.
 
-#### Pass.
 
 #### Vote.html
 
@@ -350,7 +332,6 @@ Dark Passage - Leads to the appropriate imdb page.
 
 The Great Dictator - Leads to the appropriate imdb page.
 
-#### Pass.
 
 ### Responsiveness
 
@@ -425,6 +406,13 @@ The below browsers have had the website opened, navigated through and confirmed 
 It was observed that the github pages version of the website took 10-15 minutes to reflect the development changes after a deployment.
 
 Aside from that, the final github version matches the development version that is hosted on Repl.it.
+
+### W3C and Jigsaw validation
+It was identified that several of the dropdown items in book.html required amending in order to pass correctly through the W3C validator. Originally a size attribute was added, which did fix the validator issue but prevented the dropdown animation.
+
+The size elements were then replaced with an empty value on the first dropdown item (the disabled item asking you to make a selection). This retained functionality and kept a pass for the validator.
+
+It was also identified that the Jigsaw validator has serious issues with much of the bootstrap built-in CSS. It was instead validated by input, instead of via URL and the remainder of the CSS was rated to pass.
   
 
 
