@@ -192,6 +192,18 @@ Requires additional knowledge of JS and Jquery, though appears achievable. Carep
 Going forward, repeat custom would be best served in implementing a user database and an emailer which would alert users to new films and specifically new films that they have actively voted for.
 
 
+Bootstrap appears to have many elements that generally do not conform to the accessibility contrast guidelines. In this project, this is reflected in the btn-success that are used across the site. 
+
+This is addressed in several places, for example:
+https://getbootstrap.com/docs/4.0/getting-started/accessibility/#overview-and-limitations
+
+and 
+
+https://github.com/twbs/bootstrap/issues/25126
+
+In discussion with my mentor, it was decided to acknowledge this here for now but make no changes. Moving forward it would be a preference to use colours and functions that met appropriate standards for contrast throughout.
+
+
 ## Testing
 
 ### Between-page links
@@ -366,23 +378,25 @@ https://wave.webaim.org/
 
 ##### Index.html
 
--Document language was missing in the head html
+- Document language was missing in the head html
 
--The social links in the footer of the pages did not have accompanying description
+- The social links in the footer of the pages did not have accompanying description
 
--h2 was accidentally skipped, index.html featured a h1 and a h3
+- h2 was accidentally skipped, index.html featured a h1 and a h3
 
--The program detected the 'See More' buttons as redundant, since they are next to one another and going to the same location.
+- The program detected the 'See More' buttons as redundant, since they are next to one another and going to the same location.
 
--Contrast between font and background colours did not meet standards
+- Contrast between font and background colours did not meet standards
 
 ##### Book.html
 
--Labels were not present on the form dropdowns
+- Labels were not present on the form dropdowns
 
--The imdb links did not have accompanying description
+- The imdb links did not have accompanying description
 
--Contrast remains an issue on this page.
+- Contrast remains an issue on this page.
+
+- The W3C validator found that the 'size' attributes were needed on the booking select dropdowns
 
 ##### Similar issues were located through vote.html and about.html
 
@@ -390,13 +404,15 @@ https://wave.webaim.org/
 
 #### Improvements
 
--Amended the text colour from #777777 to #595959 in order to meet contrast requirements.
+- Amended the text colour from #777777 to #595959 in order to meet contrast requirements.
 
--Amended the opacity for the hero image cover from 0.5 to 0.6, in order to meet contrast requirements.
+- Amended the opacity for the hero image cover from 0.5 to 0.6, in order to meet contrast requirements.
 
--Added 'aria-label' labels to all of the elements that were identified as requiring additional information, such as the dropdowns on book.html and the imdb links. The new labels describe the function of the menu or button.
+- Added 'aria-label' labels to all of the elements that were identified as requiring additional information, such as the dropdowns on book.html and the imdb links. The new labels describe the function of the menu or button.
 
--Decided that h2 was more appropriate for the heading (since it shouldnt trump the logo) and ensured that they descend through h3 and h4 going onwards. 
+- Decided that h2 was more appropriate for the heading (since it shouldnt trump the logo) and ensured that they descend through h3 and h4 going onwards. 
+
+- Size attributes added to the select elements of the book.html dropdowns.
 
 ### Browsers
 
