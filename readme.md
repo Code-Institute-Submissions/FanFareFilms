@@ -32,21 +32,27 @@ These will be brief touchpoints of what the user is looking for from this site. 
 ## Pages
   
 ### Home Page
-- Eye catching hero image
-- Call to action - These are consistent through the site leading on a journey - Home --> Book --> Vote --> About Us --> Home
-- Short description of what they are looking at - location, theme and what how they can interact and participate
-- Schedule prominent, calls to action eye catching for more details
+Eye catching hero image followed by a consistent call to action. Leading on a journey through - Home --> Book --> Vote --> About Us --> Home
+
+This is followed by a short description of what they are looking at - location, theme and what how they can interact and participate
+
+Then the schedule is prominent as the main information focus, calls to action eye catching for more details
 
 ### Bookings
-- Booking page to capture details.
-- Users arrive here after wanting to 'see more' from the schedule. - - They are presented with film details and the ability to select their day and time to book. There is a prominent imdb logo so they can see reviews if they want to also.
+Primary function is a booking page to capture details, allowing the user to select their choice.
+
+Users arrive here after wanting to 'see more' from the schedule.
+
+They are presented with film details and the ability to select their day and time to book. There is a prominent imdb logo so they can see reviews if they want to also.
 
 ### Voting
-After you book you are encouraged to go and vote, there is a reminder on the homepage text also, along with about. 
+After you book you are encouraged to go and vote, there is a reminder on the homepage text also, along with about.
+
 This is the call for return custom, giving users a choice in what they can see. There is also a selection box should none of the current votes take their fancy.
 
 ### About
 Here the users find more about us, our drive for films and our encouragement for them to join us in it. 
+
 The personal writing leads to people (ideally) being more invested, feeling like they are being written to individually to try to drive repeat custom from film enthusiasts, like the site creators.
 
 ## Design Decisions
@@ -126,60 +132,62 @@ See images below for initial design ideas on mobile and desktop. Note that it wa
 
 On the first navigation, a 404 error was presented. Manually navigating to https://wrightdang.github.io/FanFareFilms/index.html resolved this and the website remained stable after that.
 
+Code was locally viewed and edited via repl.it.
+
 ## Attributation
--Header and Nav from Code Institute Love Running Project.
+- Header and Nav from Code Institute Love Running Project.
 
--Hero Image -  Home https://www.pexels.com/photo/abstract-analog-art-camera-390089/
+- Hero Image -  Home https://www.pexels.com/photo/abstract-analog-art-camera-390089/
 
--Hero Image - Booking
+- Hero Image - Booking
 https://www.pexels.com/photo/multi-colored-chairs-in-row-257385/
 
--Hero image - Vote
+- Hero image - Vote
 https://www.pexels.com/photo/person-dropping-paper-on-box-1550337/
 
--Hero image - About
+- Hero image - About
 https://www.pexels.com/photo/board-cinema-cinematography-clapper-board-274937/
 
--The Big Sleep image
+- The Big Sleep image
 https://pixabay.com/photos/humphrey-bogart-lauren-bacall-619157/
 
--Angel and the Badman Image
+- Angel and the Badman Image
 https://pixabay.com/photos/john-wayne-gail-russell-actor-394468/
 
--Detour image
+- Detour image
 https://pixabay.com/photos/ann-savage-tom-neal-actress-actor-394472/
 
--Prisoner of Zenda image
+- Prisoner of Zenda image
 https://pixabay.com/photos/ronald-colman-madeleine-carroll-403399/
 
--Citizen Kane image https://commons.wikimedia.org/wiki/File:Citizen-Kane-Cotten-Welles-Sloane-Sanford.jpg
+- Citizen Kane image https://commons.wikimedia.org/wiki/File:Citizen-Kane-Cotten-Welles-Sloane-Sanford.jpg
 
--The Maltese Falcon image
+- The Maltese Falcon image
 https://commons.wikimedia.org/wiki/File:Maltese-Falcon-Tell-the-Truth-1941.jpg
 
--Treasures of the Sierra Madre image
+- Treasures of the Sierra Madre image
 https://commons.wikimedia.org/wiki/File:Humphrey_Bogart_Walter_Huston_The_Treasure_of_the_Sierra_Madre_Still.jpg
 
--Dark Passage image
+- Dark Passage image
 https://pl.wikipedia.org/wiki/Plik:Dark_Passage_1947_Lobby_Card_1.jpg
 
--Casablanca image
+- Casablanca image
 https://www.flickr.com/photos/72006245@N05/6506075403
 Creative commons licence located on a page link there which follows through to:
 https://creativecommons.org/licenses/by/2.0/
 
--The Great Dictator image
+- The Great Dictator image
 https://www.flickr.com/photos/tom-margie/1535376771
 Creative commons licence located on a page link there which follows through to:
 https://creativecommons.org/licenses/by/2.0/
 
--Assistance on name and value for form button submission on book page:
+- Assistance on name and value for form button submission on book page:
 https://stackoverflow.com/questions/37973455/pass-additional-data-with-submit-button 
 
--Assistance on how to jump to a specific part of another page - namely the bookings section of book.html for this project:
+- Assistance on how to jump to a specific part of another page - namely the bookings section of book.html for this project:
 https://stackoverflow.com/questions/17687328/getting-a-link-to-go-to-a-specific-section-on-another-page
 
--Readme screenshot information guide found here: https://medium.com/@justynagolawska/how-to-easily-add-screenshots-into-your-readme-file-on-github-d806a01d6ffd
+- Readme screenshot information guide found here: https://medium.com/@justynagolawska/how-to-easily-add-screenshots-into-your-readme-file-on-github-d806a01d6ffd
 
 
 ## Desirable features to add:
@@ -377,8 +385,6 @@ https://wave.webaim.org/
 
 - Contrast remains an issue on this page.
 
-- The W3C validator found that the 'size' attributes were needed on the booking select dropdowns
-
 ##### Similar issues were located through vote.html and about.html
 
 
@@ -392,8 +398,6 @@ https://wave.webaim.org/
 - Added 'aria-label' labels to all of the elements that were identified as requiring additional information, such as the dropdowns on book.html and the imdb links. The new labels describe the function of the menu or button.
 
 - Decided that h2 was more appropriate for the heading (since it shouldnt trump the logo) and ensured that they descend through h3 and h4 going onwards. 
-
-- Size attributes added to the select elements of the book.html dropdowns.
 
 ### Browsers
 

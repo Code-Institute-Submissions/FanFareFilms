@@ -25,7 +25,7 @@ body {
   color: #555555;
 }
 
-/* Remove bulletpoints and ensure appropriate spacing */
+/* Remove bulletpoints and ensure appropriate spacing for more pleasant viewing */
 
 #menu {
 font-size: 110%;
@@ -107,7 +107,6 @@ Underlining behaviour for the menu items, both on hover and on the currently act
     background-color: rgba(0, 0, 0, 0.60);
 }
 
-/* Jumbotron */
 
 .jumbotron {
     background-color: transparent;
@@ -178,14 +177,7 @@ Underlining behaviour for the menu items, both on hover and on the currently act
   
 }
 
-/* ---------------------------------------------------Buttons */
-.btn-group-sm {
-  padding-top: 10px;
-  text-align: center;
-}
-
-
-/* ---------------------------------------------------Schedule Cards */
+/* -------------------------------------------------Cards */
 
 .schedule-text {
   text-align: center;
@@ -232,7 +224,7 @@ Underlining behaviour for the menu items, both on hover and on the currently act
 }
 
 
-/* -------------------------------------------------Schedule Icons */
+/* -------------------------------------------------Icons - imdb */
 
 .imdb-rating {
   font-size: 300%;
@@ -247,6 +239,23 @@ Underlining behaviour for the menu items, both on hover and on the currently act
 
 .imdb-rating-vote {
   font-size: 250%;
+}
+
+/* ------------------------------------------------Icons - social */
+
+.social-networks {
+  text-align: center;
+}
+
+.social-networks li{
+  display: inline;
+}
+
+.social-networks li a i {
+  font-size: 160%;
+  margin: 2%;
+  
+  color: #fff;
 }
 
 
@@ -293,23 +302,6 @@ Underlining behaviour for the menu items, both on hover and on the currently act
   color: #fff;
   text-align: center;
   font-size: 80%;
-}
-
-/* ------------------------------------------------ Footer Icons */
-
-.social-networks {
-  text-align: center;
-}
-
-.social-networks li{
-  display: inline;
-}
-
-.social-networks li a i {
-  font-size: 160%;
-  margin: 2%;
-  
-  color: #fff;
 }
 
 
