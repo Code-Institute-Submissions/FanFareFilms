@@ -70,7 +70,7 @@ Underlining behaviour for the menu items, both on hover and on the currently act
 .hero-container {
   height: 70vh;
 
-  background: url('../Images/abstract-analog-art-camera-390089.jpg') no-repeat bottom right fixed;
+  background: url('../images/abstract-analog-art-camera-390089.jpg') no-repeat bottom right fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -83,17 +83,17 @@ Underlining behaviour for the menu items, both on hover and on the currently act
 }
 
 .hero-container-booking {
-  background: url('../Images/movie-seats.jpg') no-repeat bottom right fixed;
+  background: url('../images/movie-seats.jpg') no-repeat bottom right fixed;
   background-size: cover;
 }
 
 .hero-container-vote {
-  background: url('../Images/vote.jpg') no-repeat bottom right fixed;
+  background: url('../images/vote.jpg') no-repeat bottom right fixed;
   background-size: cover;
 }
 
 .hero-container-about {
-  background: url('../Images/about.jpg') no-repeat bottom right fixed;
+  background: url('../images/about.jpg') no-repeat bottom right fixed;
   background-size: cover;
 }
 
