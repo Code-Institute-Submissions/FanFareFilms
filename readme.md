@@ -58,7 +58,7 @@ The personal writing leads to people (ideally) being more invested, feeling like
 ## Design Decisions
 
 ### General design:
-Grey/black and white was chosen for two reasons - one as it gives a nice clean feel (in my opinion) and doesnt detract from the feel of the black and white films on show. Bright, brash colours would have done so I believe.
+Grey/black and white was chosen for two reasons - one as it gives a nice clean feel (in my opinion) and doesn't detract from the feel of the black and white films on show. Bright, brash colours would have done so I believe.
 
 The calls to action are the exception here - green throughout due to it not being shocking, whilst invoking a positive feel.
 
